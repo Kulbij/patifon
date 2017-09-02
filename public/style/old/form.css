@@ -1,0 +1,772 @@
+/******************************************************************************
+*
+*  MAIN STYLE for ownbox | Don't delete
+*
+******************************************************************************/
+
+.ownbox-lock {
+  overflow: hidden !important;
+
+  margin-right: 17px !important;
+}
+
+#ownbox {
+  position: fixed;
+  z-index: 1040;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+#box {
+  position: relative;
+
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 50px 0;
+}
+
+#ownbox-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  opacity: .5;
+  background: #000;
+}
+
+#box .ownbox-content {
+  position: relative;
+
+  margin: 0 auto;
+}
+
+/******************************************************************************
+*
+*  FORM PRODUCT
+*
+******************************************************************************/
+
+.fmpd {
+  width: 900px;
+  padding: 15px 20px 1px;
+
+  border-radius: 3px;
+  background: #fff;
+}
+
+.fmpd .fmtt {
+  font: 700 27px/1 'Roboto';
+
+  position: relative;
+
+  margin: 0 0 18px;
+
+  color: #121212;
+}
+
+.fmpd .fmex {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  display: block;
+
+  width: 29px;
+  height: 29px;
+
+  background: url('../images/form/icon/exit.png') no-repeat;
+}
+
+.fmpd .fmex:hover {
+  background-position: -30px 0;
+}
+
+.fmpd .pd {
+  margin: 0 0 19px;
+}
+
+.fmpd .pd .pdsp {
+  left: -1px;
+}
+
+.fmpd .pd .pdim {
+  width: 584px;
+}
+
+.fmpd .pd .pdim .pdjc {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 580px;
+  height: 580px;
+}
+
+.fmpd .pd .pdim .pdjc .jcls {
+  position: relative;
+
+  width: 20000em;
+}
+
+.fmpd .pd .pdim .pdjc .jcls .lsit {
+  position: relative;
+
+  overflow: hidden;
+
+  float: left;
+}
+
+.fmpd .pd .pdim .pdjc .jcls .lsit .itvral {
+  display: table-cell;
+
+  width: 580px;
+  height: 580px;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fmpd .pd .pdim .pdjc .jcls .lsit .itim {
+  max-width: 580px;
+  max-height: 580px;
+  margin: 0 0 -2px;
+}
+
+.fmpd .pd .pdim .pdcnpg {
+  position: relative;
+
+  height: 60px;
+}
+
+.fmpd .pd .pdim .pdcnpg .pglk {
+  position: relative;
+
+  display: block;
+  float: left;
+
+  width: 60px;
+  height: 60px;
+  margin: 0 4px 0 0;
+}
+
+.fmpd .pd .pdim .pdcnpg .pglk .lkvral {
+  display: table-cell;
+
+  width: 60px;
+  height: 60px;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fmpd .pd .pdim .pdcnpg .pglk .lkim {
+  max-width: 60px;
+  max-height: 60px;
+  margin: 0 0 -2px;
+}
+
+.fmpd .pd .pdim .pdcnpg .pglk .lkhv {
+  display: none;
+}
+
+.fmpd .pd .pdim .pdcnpg .pglk:hover .lkhv,
+.fmpd .pd .pdim .pdcnpg .pglk.ac .lkhv {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+
+  width: 56px;
+  height: 56px;
+
+  border: 2px solid #ffa810;
+}
+
+/******************************************************************************
+*
+*  FORM CART
+*
+******************************************************************************/
+
+.fmcr {
+  width: 780px;
+  padding: 15px 20px 1px;
+
+  border-radius: 3px;
+  background: #fff;
+}
+
+.fmcr .fmtt {
+  font: 700 27px/1 'Roboto';
+
+  position: relative;
+
+  margin: 0 0 2px;
+
+  color: #121212;
+}
+
+.fmcr .fmex {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  display: block;
+
+  width: 29px;
+  height: 29px;
+
+  background: url('../images/form/icon/exit.png') no-repeat;
+}
+
+.fmcr .fmex:hover {
+  background-position: -30px 0;
+}
+
+.fmcr .crit {
+  position: relative;
+
+  padding: 20px 0;
+
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.fmcr .crit .itim {
+  position: relative;
+
+  display: block;
+  float: left;
+
+  width: 140px;
+  height: 140px;
+  margin: 0 20px 0 0;
+}
+
+.fmcr .crit .itim .imvral {
+  display: table-cell;
+
+  width: 140px;
+  height: 140px;
+
+  text-decoration: center;
+  vertical-align: middle;
+}
+
+.fmcr .crit .itim .imim {
+  max-width: 140px;
+  max-height: 140px;
+  margin: 0 0 -2px;
+}
+
+.fmcr .crit .itbx {
+  position: relative;
+
+  float: left;
+
+  width: 360px;
+  height: 133px;
+  margin: 0 20px 0 0;
+  padding: 7px 0 0 20px;
+}
+
+.fmcr .crit .ittt {
+  position: relative;
+
+  margin: 0 0 26px;
+}
+
+.fmcr .crit .ittt .ttlk {
+  font: 18px/1 'Roboto';
+
+  text-decoration: none;
+
+  color: #009ddf;
+}
+
+.fmcr .crit .ittt .ttlk:hover {
+  text-decoration: underline;
+}
+
+.fmcr .crit .itpr {
+  font: 700 24px/1 'Roboto';
+
+  position: relative;
+
+  margin: 0 0 10px;
+
+  color: #3e3e3e;
+}
+
+.fmcr .crit .itpr .prvl {
+  font-size: 14px;
+}
+
+.fmcr .crit .ittx {
+  font: 14px/1 'Roboto';
+
+  position: relative;
+
+  color: #3e3e3e;
+}
+
+.fmcr .crit .itam {
+  position: relative;
+
+  float: left;
+
+  width: 92px;
+  height: 32px;
+  margin: 0 20px 0 0;
+  padding: 49px 0;
+}
+
+.fmcr .crit .itam .ammns {
+  position: relative;
+
+  display: block;
+  float: left;
+
+  width: 20px;
+  height: 20px;
+  margin: 5px 0;
+
+  background: url('../images/form/icon/amount.png') no-repeat;
+}
+
+.fmcr .crit .itam .ammns:hover {
+  background-position: 0 -21px;
+}
+
+.fmcr .crit .itam .ammns.db {
+  cursor: default;
+
+  background-position: 0 -42px;
+}
+
+.fmcr .crit .itam .amnm {
+  font: 15px 'Roboto';
+
+  position: relative;
+
+  float: left;
+
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  padding: 0;
+
+  text-align: center;
+
+  color: #3e3e3e;
+  border: 1px solid #c7c7c7;
+  outline: none;
+  border-radius: 2px;
+  background: #f1f1f1;
+}
+
+.fmcr .crit .itam .amnm.er {
+  border-color: #ff4d4d;
+  background: #fff;
+}
+
+.fmcr .crit .itam .amnm:focus {
+  border-color: #ffdd56;
+  background: #fff;
+}
+
+.fmcr .crit .itam .ampls {
+  position: relative;
+
+  display: block;
+  float: left;
+
+  width: 20px;
+  height: 20px;
+  margin: 5px 0;
+
+  background: url('../images/form/icon/amount.png') -21px 0 no-repeat;
+}
+
+.fmcr .crit .itam .ampls:hover {
+  background-position: -21px -21px;
+}
+
+.fmcr .crit .itam .ampls.db {
+  cursor: default;
+
+  background-position: -21px -42px;
+}
+
+.fmcr .crit .itsm {
+  font: 700 24px/128px 'Roboto';
+
+  position: relative;
+
+  float: left;
+
+  width: 108px;
+  height: 140px;
+
+  color: #3e3e3e;
+}
+
+.fmcr .crit .itsm .smvl {
+  font-size: 14px;
+}
+
+.fmcr .crit .itrem {
+  position: absolute;
+  top: 30px;
+  left: 0;
+
+  display: block;
+
+  width: 11px;
+  height: 11px;
+
+  background: url('../images/form/icon/remove.png') no-repeat;
+}
+
+.fmcr .crit .itrem:hover {
+  background-position: -12px 0;
+}
+
+.fmcr .crclr {
+  position: relative;
+
+  display: block;
+  float: left;
+
+  margin: 24px 0 0;
+
+  text-decoration: none;
+}
+
+.fmcr .crclr .icclr {
+  position: relative;
+  top: -2px;
+
+  display: inline-block;
+
+  width: 11px;
+  height: 11px;
+  margin: 0 15px 0 0;
+
+  vertical-align: bottom;
+
+  background: url('../images/form/icon/remove.png') no-repeat;
+}
+
+.fmcr .crclr .clrtx {
+  font: 15px/1 'Roboto';
+
+  position: relative;
+
+  display: inline-block;
+
+  color: #ff3d3d;
+}
+
+.fmcr .crclr:hover .icclr {
+  background-position: -12px 0;
+}
+
+.fmcr .crclr:hover .clrtx {
+  text-decoration: underline;
+}
+
+.fmcr .crsm {
+  font: 24px/1 'Roboto';
+
+  position: relative;
+
+  float: right;
+  margin: 20px 0;
+
+  color: #121212;
+}
+
+.fmcr .crsm .smnm {
+  font-weight: 700;
+
+  position: relative;
+
+  display: inline-block;
+
+  min-width: 120px;
+  margin: 0 0 0 10px;
+
+  text-align: right;
+}
+
+.fmcr .crsm .smnm .nmvl {
+  font-size: 14px;
+}
+
+.fmcr .crbc {
+  font: 700 21px/42px 'Roboto';
+
+  position: relative;
+
+  display: block;
+  float: left;
+
+  width: 253px;
+  height: 42px;
+  margin: 0 0 19px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #fff;
+  border-radius: 2px;
+  background: #3a9731;
+  box-shadow: inset 0 -1px 0 #317f29;
+}
+
+.fmcr .crbc:hover {
+  background: #49ba3e;
+}
+
+.fmcr .crbc.db {
+  cursor: default;
+
+  background: #bababa;
+  box-shadow: none;
+}
+
+.fmcr .crbt {
+  font: 700 21px/42px 'Roboto';
+
+  position: relative;
+
+  display: block;
+  float: right;
+
+  width: 253px;
+  height: 42px;
+  margin: 0 0 19px;
+  padding: 0;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #fff;
+  border-radius: 2px;
+  background: #3a9731;
+  box-shadow: inset 0 -1px 0 #317f29;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .22);
+}
+
+.fmcr .crbt:hover {
+  background: #49ba3e;
+}
+
+.fmcr .crbt.db {
+  cursor: default;
+
+  background: #bababa;
+  box-shadow: none;
+}
+
+/******************************************************************************
+*
+*  FORM FEEDBACK
+*
+******************************************************************************/
+
+.fmfdbc {
+  width: 260px;
+  padding: 15px 20px 1px;
+
+  border-radius: 3px;
+  background: #fff;
+}
+
+.fmfdbc .fmtt {
+  font: 700 27px/1 'Roboto';
+
+  position: relative;
+
+  margin: 0 0 24px;
+
+  color: #121212;
+}
+
+.fmfdbc .fmex {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  display: block;
+
+  width: 29px;
+  height: 29px;
+
+  background: url('../images/form/icon/exit.png') no-repeat;
+}
+
+.fmfdbc .fmex:hover {
+  background-position: -30px 0;
+}
+
+.fmfdbc .fmfld {
+  position: relative;
+
+  margin: 0 0 18px;
+}
+
+.fmfdbc .fmfld .fldtt {
+  font: 14px/1 'Roboto';
+
+  position: relative;
+
+  margin: 0 0 10px;
+
+  color: #3e3e3e;
+}
+
+.fmfdbc .fmfld .fldtx {
+  font: 14px 'Roboto';
+
+  width: 240px;
+  height: 30px;
+  margin: 0;
+  padding: 0 9px;
+
+  color: #3e3e3e;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  outline: none;
+  background: #f1f1f1;
+}
+
+.fmfdbc .fmfld .fldtx.er {
+  border-color: #ff4d4d;
+  background: #fff;
+}
+
+.fmfdbc .fmfld .fldtx:focus {
+  border-color: #ffdd56;
+  background: #fff;
+}
+
+.fmfdbc .fmfld .fldtxar {
+  font: 14px/1.25 'Roboto';
+
+  width: 240px;
+  height: 96px;
+  margin: 0;
+  padding: 7px 9px;
+
+  resize: none;
+
+  color: #3e3e3e;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  outline: none;
+  background: #f1f1f1;
+}
+
+.fmfdbc .fmfld .fldtxar.er {
+  border-color: #ff4d4d;
+  background: #fff;
+}
+
+.fmfdbc .fmfld .fldtxar:focus {
+  border-color: #ffdd56;
+  background: #fff;
+}
+
+.fmfdbc .fmbt {
+  font: 700 21px 'Roboto';
+
+  width: 260px;
+  height: 42px;
+  margin: 0 0 19px;
+  padding: 0;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  background: #3a9731;
+  box-shadow: 0 -1px 0 #317f29 inset;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .22);
+}
+
+.fmfdbc .fmbt:hover {
+  background: #49ba3e;
+}
+
+.fmfdbc .fmbt.db {
+  cursor: default;
+
+  background: #bababa;
+  box-shadow: none;
+}
+
+/******************************************************************************
+*
+*  FORM MESSAGE
+*
+******************************************************************************/
+
+.fmms {
+  font: 24px/30px 'Roboto';
+
+  width: 440px;
+  padding: 0 20px;
+
+
+  color: #121212;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.fmms.gd {
+  border-bottom: 5px solid #3b9732; 
+}
+
+.fmms.bad {
+  border-bottom: 5px solid #ff4d4d; 
+}
+
+.fmms .fmex {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  display: block;
+
+  width: 29px;
+  height: 29px;
+
+  background: url('../images/form/icon/exit.png') no-repeat;
+}
+
+.fmms .fmex:hover {
+  background-position: -30px 0;
+}
+
+.fmms .fmvral {
+  display: table-cell;
+
+  width: 440px;
+  height: 175px;
+
+  text-align: center;
+  vertical-align: middle;
+}

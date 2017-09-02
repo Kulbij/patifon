@@ -1,0 +1,31 @@
+.vote-wrap {
+  overflow: hidden;
+}
+
+.vote-block {
+  position: relative;
+}
+
+.vote-hover {
+  float: left;
+}
+
+.vote-stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vote-active {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vote-result {
+  display: none;
+}
+
+.vote-success {
+  display: none;
+}

@@ -1,0 +1,118 @@
+.jc {
+  position: relative;
+
+  overflow: hidden;
+}
+
+.jc .jcls {
+  position: relative;
+
+  width: 20000em;
+}
+
+.jc .jcls .lsit {
+  position: relative;
+
+  overflow: hidden;
+
+  float: left;
+}
+
+.jc .jcls .lsit .itlk {
+  display: block;
+
+  min-width: 960px;
+  height: 372px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jccn {
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  width: 15px;
+  height: 372px;
+  margin: 0 -470px 0 0;
+}
+
+.jccn .cnvral {
+  display: table-cell;
+
+  width: 15px;
+  height: 372px;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.jccn .cnpr {
+  position: relative;
+
+  display: block;
+
+  width: 15px;
+  height: 15px;
+  background: url('../images/jcarousel/icon/arrow.png') no-repeat;
+}
+
+.jccn .cnpr:hover {
+  background-position: -16px 0;
+}
+
+.jccn .cnpr.ds {
+  display: none;
+}
+
+.jccn .cnnx {
+  position: relative;
+
+  display: block;
+
+  width: 15px;
+  height: 15px;
+
+  background: url('../images/jcarousel/icon/arrow.png') 0 -16px no-repeat;
+}
+
+.jccn .cnnx:hover {
+  background-position: -16px -16px;
+}
+
+.jccn .cnnx.ds {
+  display: none;
+}
+
+.jccn .cnpg {
+  position: relative;
+
+  margin: 4px 0;
+  padding: 1px 0;
+}
+
+.jccn .cnpg .pglk {
+  display: block;
+
+  width: 7px;
+  height: 7px;
+  margin: 2px auto;
+
+  border-radius: 4px;
+  background: #a39c8d;
+}
+
+.jccn .cnpg .pglk:hover {
+  background: #fdcb08;
+}
+
+.jccn .cnpg .pglk.ac {
+  width: 5px;
+  height: 5px;
+  margin: 3px auto;
+
+  cursor: default;
+
+  background: #fdcb08;
+}

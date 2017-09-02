@@ -1,0 +1,309 @@
+.jc,
+.jcas {
+  position: relative;
+  overflow: hidden;
+}
+
+.jcls {
+  position: relative;
+  width: 20000em;
+}
+
+.jcls .lsit {
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+.jcls .lsit .itlk {
+  display: block;
+  min-width: 960px;
+  height: 100%;
+}
+
+.jcls .lsit .itlk:before, .jcls .lsit .itlk:after {
+  display: table;
+  content: '';
+}
+
+.jcls .lsit .itlk:after {
+  clear: both;
+}
+
+.jcls .lsit .itlk .lklfbg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background: #fffcf1;
+}
+
+.jcls .lsit .itlk .lkrgbg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background: #fff4dc;
+}
+
+.jcls .lsit .itlk .lkcntr {
+  position: relative;
+  width: 940px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.jcls .lsit .itlk .lkcntr:before, .jcls .lsit .itlk .lkcntr:after {
+  display: table;
+  content: '';
+}
+
+.jcls .lsit .itlk .lkcntr:after {
+  clear: both;
+}
+
+.jcls .lsit .itlk .lklf {
+  position: relative;
+  float: left;
+  width: 470px;
+  height: 100%;
+}
+
+.jcls .lsit .itlk .lklf:before {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  margin: 0 0 0 -3px;
+  content: '';
+  vertical-align: middle;
+}
+
+.jcls .lsit .itlk .lklf img {
+  vertical-align: middle;
+}
+
+.jcls .lsit .itlk .lkrg {
+  position: relative;
+  float: right;
+  box-sizing: border-box;
+  width: 470px;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.jcls .lsit .itlk .lkrg:before {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  margin: 0 0 0 -3px;
+  content: '';
+  vertical-align: middle;
+}
+
+.jcls .lsit .itlk .lkrg .lkvral {
+  display: inline-block;
+  width: 330px;
+  padding: 0 70px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.jcls .lsit .itlk .lktt {
+  font: 700 40px/1 'Roboto';
+  position: relative;
+  margin: 0 0 16px;
+  text-align: left;
+  color: #009ddf;
+}
+
+.jcls .lsit .itlk .lkft {
+  position: relative;
+  display: block;
+  margin: 0 0 22px;
+  text-align: left;
+}
+
+.jcls .lsit .itlk .lkft .fttt {
+  font: 700 18px/1 'Roboto';
+  position: relative;
+  padding: 0 0 4px;
+  color: #1c1c1c;
+}
+
+.jcls .lsit .itlk .lkft .ftit {
+  font: 600 15px/1 'Roboto';
+  position: relative;
+  margin: 10px 0 0;
+  padding: 2px 0 0;
+  color: #1c1c1c;
+}
+
+.jcls .lsit .itlk .lkft .ftit .itic {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  width: 13px;
+  height: 15px;
+  margin: 0 6px 0 0;
+  vertical-align: top;
+  background: url('../images/content/icon/features.png') no-repeat;
+}
+
+.jcls .lsit .itlk .lkft .ftit .icsz {
+  background-position: 0 0;
+}
+
+.jcls .lsit .itlk .lkft .ftit .icpc {
+  background-position: 0 -15px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .icrm {
+  background-position: 0 -30px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .iccam {
+  background-position: 0 -45px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .icfldr {
+  background-position: 0 -60px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .icopss {
+  background-position: 0 -75px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .sim {
+  background-position: 0 -90px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .two-sim {
+  background-position: 0 -105px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .icbtr {
+  background-position: 0 -120px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .three-g {
+  background-position: 0 -135px;
+}
+
+.jcls .lsit .itlk .lkft .ftit .ittt {
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+  color: #3e3e3e;
+}
+
+.jcls .lsit .itlk .lkft .ftit .ittx {
+  position: relative;
+  display: inline-block;
+  width: 174px;
+}
+
+.jcls .lsit .itlk .lkpr {
+  font: 700 34px/42px 'Roboto';
+  position: relative;
+  float: left;
+  width: 174px;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.jcls .lsit .itlk .lkpr .prvl {
+  font-size: 18px;
+}
+
+.jcls .lsit .itlk .lkbt {
+  font: 700 21px/42px 'Roboto';
+  position: relative;
+  float: left;
+  width: 110px;
+  height: 42px;
+  padding: 0 46px 0 0;
+  text-align: center;
+  color: #fff;
+  background: url('../images/jcarousel/bg/button.png') no-repeat;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .22);
+}
+
+.jccn {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 15px;
+  height: 372px;
+  margin: 0 -470px 0 0;
+}
+
+.jccn .cnvral {
+  display: table-cell;
+  width: 15px;
+  height: 372px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.jccn .cnpr {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url('../images/jcarousel/icon/arrow.png') no-repeat;
+}
+
+.jccn .cnpr:hover {
+  background-position: -16px 0;
+}
+
+.jccn .cnpr.ds {
+  display: none;
+}
+
+.jccn .cnnx {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url('../images/jcarousel/icon/arrow.png') 0 -16px no-repeat;
+}
+
+.jccn .cnnx:hover {
+  background-position: -16px -16px;
+}
+
+.jccn .cnnx.ds {
+  display: none;
+}
+
+.jccn .cnpg {
+  position: relative;
+  margin: 4px 0;
+  padding: 1px 0;
+}
+
+.jccn .cnpg .pglk {
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin: 2px auto;
+  border-radius: 4px;
+  background: #a39c8d;
+}
+
+.jccn .cnpg .pglk:hover {
+  background: #fdcb08;
+}
+
+.jccn .cnpg .pglk.ac {
+  width: 5px;
+  height: 5px;
+  margin: 3px auto;
+  cursor: default;
+  background: #fdcb08;
+}

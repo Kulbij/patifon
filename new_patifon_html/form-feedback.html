@@ -1,0 +1,3076 @@
+<!DOCTYPE html>
+<html class="ownbox-lock">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+  <title>Patifon(главная страница)</title>
+
+  <!-- Сбрасывание стандартных стилей браузеров для HTML-элементов-->
+  <link rel="stylesheet" href="css/reset.css" />
+
+  <!-- Пользовательскиe стили -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form.css">
+
+  <!-- Стилизация BxSlider -->
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+
+  <!-- Стилизация select -->
+  <link rel="stylesheet" href="css/selectric.css">
+
+  <!-- Стили Slick Slider -->
+  <link rel="stylesheet" href="css/slick.css"/>
+  <link rel="stylesheet" href="css/slick-theme.css"/>
+
+  <!-- Стили Rating -->
+  <link rel="stylesheet" href="css/jquery.rating.css" />
+
+  <!-- Скрипты, активизирующие поддержку
+  - HTML5,
+  - медиазапросы,
+  - селекторов атрибутов, псевдоклассов, box-sizing,
+  - background-size,
+    в IE меньше 9-ой версии соответственно -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+  <script src="https://raw.githubusercontent.com/srobbin/jquery-backstretch/master/jquery.backstretch.min.js"></script>
+  <![endif]-->
+
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!--///////////////////////////////////////////////////////////////////////////////
+                      HEADER
+//////////////////////////////////////////////////////////////////////////////////-->
+  <div class="wrapper">
+    <header>
+      <!-- MOBILE HEADER -->
+      <div class="header__mobile clearfix">
+        <!-- CONTAINER -->
+        <div class="container">
+          <div class="header__mobile--top">
+            <span class="toggle_mobile_nav"> <i></i> <i></i>
+              <i></i>
+            </span>
+
+            <a href="#" class="mobile__basket_link">
+              <span>22</span>
+            </a>
+          </div>
+
+          <div class="header__mobile--bottom">
+            <a href="#" class="logo_company" title="Patifon">
+              <img src="images/logo_company.png" alt="Patifon"></a>
+
+            <div class="mobile_phones"> <strong>(099) 453-40-40</strong>
+
+              <a href="#" class="mobile_phones_link">Все телефоны</a>
+            </div>
+          </div>
+        </div>
+        <!-- END CONTAINER -->
+
+        <!-- MOBILE OPEN CONTENT -->
+        <div class="mobile_open_content">
+          <div class="mobile_open__mask"></div>
+
+          <div class="mobile_open_content__inner">
+            <!-- КОРЗИНА В МОБИЛЬНОМ ОТКР. КОНТЕНТЕ -->
+            <a href="#" class="mobile_open_content--basket_link">
+              <p> <em>284 220</em>
+                &nbsp;грн
+              </p>
+              <span>22</span>
+            </a>
+            <!-- END КОРЗИНА В МОБИЛЬНОМ ОТКР. КОНТЕНТЕ -->
+
+            <!-- ФОРМА В МОБИЛЬНОМ ОТКР. КОНТЕНТЕ -->
+            <form action="/" method="post" name="mobile_op_cont_form" class="mobile_op_cont_form clearfix">
+              <button type="submit" class="mobile_op_cont_form_submit"></button>
+
+              <div class="wrapper_mobile_op_cont_form_input">
+                <input class="mobile_op_cont_form_input" autocomplete="off"></div>
+            </form>
+            <!-- ФОРМА В МОБИЛЬНОМ ОТКР. КОНТЕНТЕ -->
+
+            <p class="mobile_open_content--copyright"> <strong>Разработан и поддерживается в</strong>
+              <a href="http://32x32.com.ua/">компании 32x32</a>
+            </p>
+          </div>
+        </div>
+        <!-- END MOBILE OPEN CONTENT -->
+      </div>
+      <!-- MOBILE HEADER -->
+
+      <!-- TOP HEADER -->
+      <div class="header__top">
+        <!-- CONTAINER -->
+        <div class="container header__top--container clearfix">
+          <!-- ГЛАВНАЯ НАВИГАЦИЯ -->
+          <nav class="main_nav">
+            <ul>
+              <li>
+                <a href="#">Гарантия и сервис</a>
+              </li>
+              <li>
+                <a href="#">Доставка и оплата</a>
+              </li>
+              <li>
+                <a href="#">Статьи</a>
+              </li>
+              <li class="hide_599">
+                <a href="#">Контакты</a>
+              </li>
+              <li>
+                <a href="#" class="comprasion_link">
+                  <i class="comprasion_link__count">3</i>
+                  <span>Сравнение</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- ГЛАВНАЯ НАВИГАЦИЯ -->
+
+          <!-- ФОРМА В TOP HEADER -->
+          <form action="/" method="post" name="header--form" class="header--form clearfix">
+            <button type="submit" class="header--form_submit button_1"></button>
+
+            <div class="wrapper_header--form_input">
+              <input class="header--form_input" autocomplete="off"></div>
+          </form>
+          <!-- END ФОРМА В TOP HEADER -->
+        </div>
+        <!-- END CONTAINER -->
+      </div>
+      <!-- END TOP HEADER -->
+
+      <!-- MIDDLE HEADER -->
+      <div class="header__middle">
+        <div class="container clearfix">
+          <!-- LOGO COMPANY -->
+          <a href="#" class="logo_company" title="Patifon">
+            <img src="images/logo_company.png" alt="Patifon"></a>
+          <!-- END LOGO COMPANY -->
+
+          <!-- КОРЗИНА -->
+          <div class="cart cart_empty" style="display: none;">
+            <span class="cart__title">Корзина</span>
+            <span class="cart_total_summ">
+              284 200
+              <i>&nbsp;грн.</i>
+            </span>
+            <span class="cart__count">3</span>
+          </div>
+          <!-- END КОРЗИНА -->
+
+          <a href="#" class="cart cart_full" >
+            <span class="cart__title">Корзина</span>
+            <span class="cart_total_summ">
+              284 200
+              <i>&nbsp;грн.</i>
+            </span>
+            <span class="cart__count">3</span>
+          </a>
+          <!-- END КОРЗИНА -->
+
+          <!-- КОНТАКТНАЯ ИНФА В HEADER -->
+          <div class="header_contacts_info">
+            <p class="time_work clearfix">
+              <strong>График работы Call-центра</strong> <em>&nbsp;Пн-Вс: 09:00 - 21:00</em>
+              <a href="#" class="call_us">
+                <span>Перезвоните мне</span>
+              </a>
+            </p>
+            <p class="contact_phones_group">
+              <a href="tel:(099)453–40–40" class="contact_phone contact_phone_1">
+                <em>(099) 453–40–40</em>
+              </a>
+              <a href="tel:(098)453–40–40" class="contact_phone contact_phone_2">
+                <em>(098) 453–40–40</em>
+              </a>
+              <a href="tel:(093)453–40–40" class="contact_phone contact_phone_3">
+                <em>(093) 453–40–40</em>
+              </a>
+            </p>
+          </div>
+          <!-- END КОНТАКТНАЯ ИНФА В HEADER -->
+
+          <span class="clearfix"></span>
+
+          <div class="container_980 clearfix"></div>
+        </div>
+        <!-- END CONTAINER -->
+      </div>
+      <!-- END MIDDLE HEADER -->
+
+      <!-- ДОПОЛНИТЕЛЬНАЯ НАВИГАЦИЯ -->
+      <nav class="add_nav">
+        <ul>
+          <li>
+            <a href="#">Все смартфоны</a>
+
+            <ul class="sub_menu">
+              <li>
+                <a href="#">Lenovo A серия</a>
+              </li>
+              <li>
+                <a href="#">Lenovo K серия</a>
+              </li>
+              <li>
+                <a href="#">Lenovo P серия</a>
+              </li>
+              <li>
+                <a href="#">Lenovo S серия</a>
+              </li>
+              <li>
+                <a href="#">Аксессуары</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Lenovo A серия</a>
+          </li>
+          <li class="add_nav__active_link">
+            <a href="#">Lenovo K серия</a>
+
+            <ul class="sub_menu">
+              <li>
+                <a href="#">Lenovo A серия</a>
+              </li>
+              <li>
+                <a href="#">Lenovo K серия</a>
+              </li>
+              <li>
+                <a href="#">Lenovo P серия</a>
+              </li>
+              <li>
+                <a href="#">Lenovo S серия</a>
+              </li>
+              <li>
+                <a href="#">Аксессуары</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Lenovo P серия</a>
+          </li>
+          <li>
+            <a href="#">Lenovo S серия</a>
+          </li>
+          <li>
+            <a href="#">Аксессуары</a>
+
+            <ul class="sub_menu">
+              <li>
+                <a href="#">Lenovo A серия</a>
+              </li>
+              <li>
+                <a href="#">Lenovo K серия</a>
+              </li>
+              <li>
+                <a href="#">Универсальные мобильные батареи</a>
+              </li>
+              <li>
+                <a href="#">Lenovo S серия</a>
+              </li>
+              <li>
+                <a href="#">Аксессуары</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- END ДОПОЛНИТЕЛЬНАЯ НАВИГАЦИЯ -->
+    </header>
+    <!-- END HEADER -->
+
+    <!--////////////////////////////////////////////////////////////////////////////////
+                        MAIN 
+    ////////////////////////////////////////////////////////////////////////////////////-->
+    <main>
+      <!--CONTAINER -->
+      <div class="container">
+        <!-- BREADCRUMBS -->
+        <ul class="breadcrumbs clearfix" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="#" itemprop="item">
+              <span>Главная</span>
+            </a>
+          </li>
+          <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="#" itemprop="item">
+              <span>Lenovo Vibe серия</span>
+            </a>
+          </li>
+        </ul>
+        <!-- END BREADCRUMBS -->
+
+        <!-- ДЕТАЛЬНО О ТОВАРЕ -->
+        <section class="product_info_detail clearfix" itemscope itemtype="http://schema.org/Product">
+          <h1 itemprop="name">Lenovo Vibe X2 Gold</h1>
+          <strong class="product_code">Код товара:&nbsp;
+            <span>1234</span></strong> 
+
+          <div class="container_599">
+            <img src="images/photo_1.png" alt="" itemprop="image">
+
+            <i class="prezent"></i>
+          </div>
+
+          <!-- TABS ДЕТАЛЬНО О ТОВАРЕ -->
+          <div class="tabs_detail_product">
+            <ul class="horizontal tabs_list">
+              <li>
+                <a href="#tab-detail_1">Все о товаре</a>
+              </li>
+
+              <li>
+                <a href="#tab-detail_2">Характеристики</a>
+              </li>
+
+              <li>
+                <a href="#tab-detail_3">Отзывы</a>
+              </li>
+
+              <li>
+                <a href="#tab-detail_4">Фото</a>
+              </li>
+
+              <li>
+                <a href="#tab-detail_5">Видео</a>
+              </li>
+
+              <li>
+                <a href="#tab-detail_6">Аксесуары</a>
+              </li>
+
+              <li>
+                <a href="#tab-detail_7">Настройки</a>
+              </li>
+            </ul>
+
+            <div id="tab-detail_1">
+              <!-- КОНТЕНТ СО СЛАЙДЕРОМ -->
+              <div class="product_info_detail__bl_1">
+
+                <div id="bxslider">
+                  <div class="bxpager-box">
+                    <div class="jcarousel">
+                      <ul class="bxpager">
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="0">
+                            <img src="images/photo_small_1.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="1">
+                            <img src="images/photo_small_2.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="2">
+                            <img src="images/photo_small_3.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="3">
+                            <img src="images/photo_small_4.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="4">
+                            <img src="images/photo_small_5.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="0">
+                            <img src="images/photo_small_1.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="1">
+                            <img src="images/photo_small_2.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="2">
+                            <img src="images/photo_small_3.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="3">
+                            <img src="images/photo_small_4.png" alt="#" class="item-image"></a>
+                        </li>
+
+                        <li class="bxitem">
+                          <a href="#" class="bxlink" data-slide-index="4">
+                            <img src="images/photo_small_5.png" alt="#" class="item-image"></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <a href="#" class="jcarousel-left"></a>
+                    <a href="#" class="jcarousel-right"></a>
+                  </div>
+
+                  <ul class="bxmain">
+                    <li class="bxitem">
+                      <a href="#" class="bxlink">
+                        <img src="images/photo_big_1.png" alt="#" class="item-image" itemprop="image"></a>
+                    </li>
+
+                    <li class="bxitem">
+                      <a href="#" class="bxlink">
+                        <img src="images/photo_big_2.png" alt="#" class="item-image" itemprop="image"></a>
+                    </li>
+
+                    <li class="bxitem">
+                      <a href="#" class="bxlink">
+                        <img src="images/photo_big_3.png" alt="#" class="item-image" itemprop="image"></a>
+                    </li>
+
+                    <li class="bxitem">
+                      <a href="#" class="bxlink">
+                        <img src="images/photo_big_4.png" alt="#" class="item-image" itemprop="image"></a>
+                    </li>
+
+                    <li class="bxitem">
+                      <a href="#" class="bxlink">
+                        <img src="images/photo_big_5.png" alt="#" class="item-image" itemprop="image"></a>
+                    </li>
+                  </ul>
+                </div>
+
+                <p class="product_description" itemprop="description">
+                  Экран 5.0" IPS (1920x1080) / Процессор 4 ядра (2.0 Ггц) / ОЗУ 2 Гб / Камера 13 Мп + 5 Мп / Память 32 Гб / OC Android 4.4 (KitKat)
+                </p>
+
+                <ul class="product_parametres">
+                  <li>
+                    <em>4</em>
+                    <span>Ядра</span>
+                  </li>
+                  <li>
+                    <img src="images/ips.png" alt=""></li>
+                  <li>
+                    <img src="images/android.png" alt="">
+                    <span>Android 5.1</span>
+                  </li>
+                  <li>
+                    <img src="images/camera.png" alt="">
+                    <span>13 Mp</span>
+                  </li>
+                  <li>
+                    <img src="images/3g.png" alt=""></li>
+                </ul>
+              </div>
+              <!-- END КОНТЕНТ СО СЛАЙДЕРОМ -->
+
+              <!-- КОНТЕНТ ИНФ. О ТОВАРЕ -->
+              <div class="product_info_detail__bl_2">
+
+                <!-- ДО ОКОНЧАНИЯ АКЦИИ... -->
+                <div class="time_end_action clearfix">
+                  <em><span>
+                      Оригинальная
+                      <br>
+                      защитная пленка
+                      <br>в подарок!</span>
+
+                    <i class="triangle_1"></i>
+                    <i class="triangle_2"></i>
+                    <i class="prezent"></i></em> 
+
+                  <!-- ТАЙМЕР -->
+                  <div class="timmer_wrapper">
+                    <div class="inner_timmer_wrapper">
+                      <div class="tmrcnt">
+                        <div class="cntnm" id="sh_day">00</div>
+                      </div>
+
+                      <div class="tmrcln"></div>
+
+                      <div class="tmrcnt">
+                        <div class="cntnm" id="sh_hour">
+                          00
+                          <div class="nmln"></div>
+                        </div>
+                      </div>
+
+                      <div class="tmrcln"></div>
+
+                      <div class="tmrcnt">
+                        <div class="cntnm" id="sh_min">00</div>
+                      </div>
+
+                      <div class="tmrcln"></div>
+
+                      <div class="tmrcnt">
+                        <div class="cntnm" id="sh_sec">00</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END ТАЙМЕР -->
+                </div>
+                <!-- END ДО ОКОНЧАНИЯ АКЦИИ... -->
+
+                <!-- КРАТКО О ТОВАРЕ -->
+                <div class="product_info_detail--short_info">
+                  <div class="style_info style_info_product_color">
+                    <div class="product_color">
+                      <em>Цвет:</em>
+                      <a href="#" class="color_link select_color">
+                        Золотой
+                        <span class="color_v color_v_1"></span>
+                      </a>
+                      <a href="#" class="color_link">
+                        Черный
+                        <span class="color_v color_v_2"></span>
+                      </a>
+
+                      <a href="#" class="color_link">
+                        Белый
+                        <span class="color_v color_v_3"></span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="style_info">
+                    <span class="available_product available_product_yes">Есть в наличии</span>
+                    <span class="available_product available_product_no" style="display: none;">Товар отсутствует</span>
+                  </div>
+
+                  <div class="style_info">
+                    <div class="wrapper_product_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                      <div class="product_price--new">
+                        <strong itemprop="price">15 799</strong>
+                        <span>грн.</span>
+                        <span itemprop="priceCurrency">UAH</span>
+                      </div>
+
+                      <div class="product_price--old">
+                        <p class="product_price--old_p_1">
+                          <span>17 799</span>
+                          &nbsp;грн.
+                        </p>
+                        <p class="product_price--old_p_2">
+                          Экономия -
+                          <span>2000</span>
+                          &nbsp;грн.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="add_to_basket">
+                    <span>Добавить в корзину</span>
+                  </button>
+                  <button class="add_to_basket" disabled style="display: none;">
+                    <span>Добавить в корзину</span>
+                  </button>
+
+                  <!-- КУПИТЬ В ОДИН КЛИК -->
+                  <form action="/" method="post" class="form_buy_one_click">
+                    <div>
+                      <input class="buy_one_click__input" placeholder="Номер телефона"></div>
+                    <div>
+                      <button type="submit" class="buy_one_click__button">Купить в 1 клик</button>
+                    </div>
+                  </form>
+                  <!-- END КУПИТЬ В ОДИН КЛИК -->
+
+                  <div class="style_info">
+                    <div class="rating_comments_product">
+                      <div>
+                        <p class="wrapper_rating">
+                          <span class="rating--product"></span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          <a href="#" class="product--comm">
+                            <span class="product--comm_quant">220000</span>
+                            отзывов
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="style_info">
+                    <div class="product_detail_add_cont clearfix">
+                      <p>
+                        <a href="#" class="product--detail_like active">
+                          <span class="product--detail_like__quant">220000</span>
+                        </a>
+                      </p>
+
+                      <p>
+                        <input type="checkbox" id="product--det_check_1" class="product--det_check">
+                        <label for="product--det_check_1">Добавить к сравнению</label>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- END КРАТКО О ТОВАРЕ -->
+
+                <!-- О ДОСТАВКЕ/ГАРАНТИИ ТОВАРА -->
+                <div class="product_info_detail--delivery_warranty">
+                  <!-- ДОСТАВКА -->
+                  <section class="delivery">
+                    <h4 class="style_title">
+                      Доставка
+                      <a href="#" class="clarification"></a>
+                    </h4>
+
+                    <div class="style_info">Из магазина Ровно — бесплатно</div>
+
+                    <div class="style_info">
+                      <p>Регионы – &laquo;Нова пошта&raquo;</p>
+
+                      <div class="product_info_table">
+                        <div>Наличный платеж</div>
+                        <div>+105 грн.</div>
+                      </div>
+
+                      <div class="product_info_table">
+                        <div>Предоплата</div>
+                        <div>+35 грн.</div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- END ДОСТАВКА -->
+
+                  <!-- ГАРАНТИЯ -->
+                  <section class="warranty">
+                    <h4 class="style_title">
+                      Гарантия
+                      <a href="#" class="clarification"></a>
+                    </h4>
+
+                    <div class="style_info">
+                      <div class="product_info_table">
+                        <div>От магазина</div>
+                        <div>3 месяца</div>
+                      </div>
+                    </div>
+
+                    <div class="style_info">
+                      <div class="product_info_table">
+                        <div>Обмен/Возврат</div>
+                        <div>14 дней</div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- END ГАРАНТИЯ -->
+                </div>
+                <!-- END О ДОСТАВКЕ/ГАРАНТИИ ТОВАРА -->
+
+                <span class="clearfix"></span>
+
+                <!-- SELECT BLOCK -->
+                <div class="select_block">
+                  <div class="style_info">
+                    <div class="select_block_inner">
+                      <div>
+                        <label for="select_v_1">Прокачай пакет</label>
+
+                        <div class="wrapper_select">
+                          <select class="select_v" name="select_v" id="select_v_1">
+                            <option value="1">Максимальный пакет</option>
+                            <option value="2">Базовый пакет</option>
+                            <option value="3">Стандартный пакет</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div>
+                        <span class="select_block--add_price">+1955 грн.</span>
+
+                        <button class="select_block--button">Купить</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="style_info">
+                    <div class="select_block_inner">
+                      <div>
+                        <label for="select_v_2">Дополнительно</label>
+
+                        <div class="wrapper_select">
+                          <select class="select_v" name="select_v" id="select_v_2">
+                            <option value="1">Поклеить пленку</option>
+                            <option value="2">Установка ПО</option>
+                            <option value="3">Сервис</option>
+                          </select>
+                        </div>
+
+                        <a href="#" class="what_is_it"></a>
+                      </div>
+
+                      <div>
+                        <span class="select_block--add_price">+1950 грн.</span>
+
+                        <button class="select_block--button">Купить</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END SELECT BLOCK -->
+              </div>
+              <!-- END КОНТЕНТ ИНФ. О ТОВАРЕ -->
+
+              <span class="clearfix"></span>
+
+              <div class="container_800"></div>
+
+              <section class="section">
+                <h2>Аксессуары</h2>
+
+                <!-- КАРУСЕЛЬ ПРОДУКЦИИ -->
+                <div class="wrapper_product_gallery">
+                  <div class="product_gallery">
+                    <div>
+                      <div class="product product_stock">
+                        <a href="#" class="product__link_img">
+                          <img src="images/product_1.png" alt="" class="product--img">
+                          <span class="label_small"></span>
+                        </a>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--see_comments">
+                              <span class="product--see_quantity">220000</span>
+                            </a>
+                          </p>
+
+                          <p class="wrapper_rating">
+                            <span class="rating"></span>
+                          </p>
+                        </div>
+
+                        <div class="product__title">
+                          <a href="#">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis unde quod neque veritatis quaerat magni, rem eaque laborum quo placeat.
+                          </a>
+                        </div>
+
+                        <div class="product_add_content product_add_content_middle clearfix">
+                          <p>
+                            <button class="product--buy_button">Купить</button>
+                          </p>
+
+                          <p class="wrapper_price_button">
+                            <span class="product--price">20450</span>
+                            <span class="product--currency">&nbsp;грн.</span>
+                          </p>
+                        </div>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--like">
+                              <span class="product--like_quantity">220000</span>
+                            </a>
+                          </p>
+
+                          <p>
+                            <input type="checkbox" id="product--check_11" class="product--check">
+                            <label for="product--check_11">Сравнить</label>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="product product_stock">
+                        <a href="#" class="product__link_img">
+                          <img src="images/product_2.png" alt="" class="product--img">
+                          <span class="label_small"></span>
+                        </a>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--see_comments">
+                              <span class="product--see_quantity">22</span>
+                            </a>
+                          </p>
+
+                          <p class="wrapper_rating">
+                            <span class="rating"></span>
+                          </p>
+                        </div>
+
+                        <div class="product__title">
+                          <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                        </div>
+
+                        <div class="product_add_content product_add_content_middle clearfix">
+                          <p>
+                            <button class="product--buy_button">Купить</button>
+                          </p>
+
+                          <p class="wrapper_price_button">
+                            <span class="product--price">245</span>
+                            <span class="product--currency">&nbsp;грн.</span>
+                          </p>
+                        </div>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--like">
+                              <span class="product--like_quantity">22</span>
+                            </a>
+                          </p>
+
+                          <p>
+                            <input type="checkbox" id="product--check_12" class="product--check">
+                            <label for="product--check_12">Сравнить</label>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="product product_sale">
+                        <a href="#" class="product__link_img">
+                          <img src="images/product_3.png" alt="" class="product--img">
+                          <span class="label_small"></span>
+                        </a>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--see_comments">
+                              <span class="product--see_quantity">22</span>
+                            </a>
+                          </p>
+
+                          <p class="wrapper_rating">
+                            <span class="rating"></span>
+                          </p>
+                        </div>
+
+                        <div class="product__title">
+                          <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                        </div>
+
+                        <div class="product_add_content product_add_content_middle clearfix">
+                          <p>
+                            <button class="product--buy_button" disabled>Купить</button>
+                          </p>
+
+                          <p class="wrapper_price_button">
+                            <span class="product--price">245</span>
+                            <span class="product--currency">&nbsp;грн.</span>
+                          </p>
+                        </div>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--like">
+                              <span class="product--like_quantity">22</span>
+                            </a>
+                          </p>
+
+                          <p>
+                            <input type="checkbox" id="product--check_13" class="product--check">
+                            <label for="product--check_13">Сравнить</label>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="product product_stock">
+                        <a href="#" class="product__link_img">
+                          <img src="images/product_3.png" alt="" class="product--img">
+                          <span class="label_small"></span>
+                        </a>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--see_comments">
+                              <span class="product--see_quantity">22</span>
+                            </a>
+                          </p>
+
+                          <p class="wrapper_rating">
+                            <span class="rating"></span>
+                          </p>
+                        </div>
+
+                        <div class="product__title">
+                          <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                        </div>
+
+                        <div class="product_add_content product_add_content_middle clearfix">
+                          <p>
+                            <button class="product--buy_button">Купить</button>
+                          </p>
+
+                          <p class="wrapper_price_button">
+                            <span class="product--price">245</span>
+                            <span class="product--currency">&nbsp;грн.</span>
+                          </p>
+                        </div>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--like">
+                              <span class="product--like_quantity">22</span>
+                            </a>
+                          </p>
+
+                          <p>
+                            <input type="checkbox" id="product--check_14" class="product--check">
+                            <label for="product--check_14">Сравнить</label>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="product product_stock">
+                        <a href="#" class="product__link_img">
+                          <img src="images/product_1.png" alt="" class="product--img">
+                          <span class="label_small"></span>
+                        </a>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--see_comments">
+                              <span class="product--see_quantity">22</span>
+                            </a>
+                          </p>
+
+                          <p class="wrapper_rating">
+                            <span class="rating"></span>
+                          </p>
+                        </div>
+
+                        <div class="product__title">
+                          <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                        </div>
+
+                        <div class="product_add_content product_add_content_middle clearfix">
+                          <p>
+                            <button class="product--buy_button">Купить</button>
+                          </p>
+
+                          <p class="wrapper_price_button">
+                            <span class="product--price">245</span>
+                            <span class="product--currency">&nbsp;грн.</span>
+                          </p>
+                        </div>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--like">
+                              <span class="product--like_quantity">22</span>
+                            </a>
+                          </p>
+
+                          <p>
+                            <input type="checkbox" id="product--check_15" class="product--check">
+                            <label for="product--check_15">Сравнить</label>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="product product_stock">
+                        <a href="#" class="product__link_img">
+                          <img src="images/product_2.png" alt="" class="product--img">
+                          <span class="label_small"></span>
+                        </a>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--see_comments">
+                              <span class="product--see_quantity">22000</span>
+                            </a>
+                          </p>
+
+                          <p class="wrapper_rating">
+                            <span class="rating"></span>
+                          </p>
+                        </div>
+
+                        <div class="product__title">
+                          <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                        </div>
+
+                        <div class="product_add_content product_add_content_middle clearfix">
+                          <p>
+                            <button class="product--buy_button">Купить</button>
+                          </p>
+
+                          <p class="wrapper_price_button">
+                            <span class="product--price">20450</span>
+                            <span class="product--currency">&nbsp;грн.</span>
+                          </p>
+                        </div>
+
+                        <div class="product_add_content clearfix">
+                          <p>
+                            <a href="#" class="product--like">
+                              <span class="product--like_quantity">22000</span>
+                            </a>
+                          </p>
+
+                          <p>
+                            <input type="checkbox" id="product--check_16" class="product--check">
+                            <label for="product--check_16">Сравнить</label>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END КАРУСЕЛЬ ПРОДУКЦИИ -->
+              </section>
+
+              <div class="clearfix section_t_par_comments">
+                <div class="wrapper_t_parametres clearfix">
+                  <!-- ТЕХНИЧЕСКИЕ Х-КИ -->
+                  <section class="section t_parametres_1">
+                    <h2>Технические характеристики</h2>
+
+                    <!-- TABS -->
+                    <div class="tabs">
+                      <ul class="horizontal">
+                        <li>
+                          <a href="#tab-1">
+                            <span>Основные</span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="#tab-2">
+                            <span>Все характеристики</span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <div id="tab-1">
+                        <table class="table_parametres">
+                          <col class="col_1">
+                          <col class="col_2">
+                          <tr>
+                            <td>
+                              <em class="par_1">Диагональ экрана:</em>
+                            </td>
+                            <td>
+                              <strong>5''</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_2">Операционная система:</em>
+                            </td>
+                            <td>
+                              <strong>Android 4.4 KitKat</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_3">Внутренняя память:</em>
+                            </td>
+                            <td>
+                              <strong>16 Гб</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_4">Поддержка карты памяти:</em>
+                            </td>
+                            <td>
+                              <strong>microSD до 64 Гб</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_5">Количество SIM-карт:</em>
+                            </td>
+                            <td>
+                              <strong>2 SIM</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_6">Формат SIM-карты:</em>
+                            </td>
+                            <td>
+                              <strong>Nano-SIM</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_7">Камера:</em>
+                            </td>
+                            <td>
+                              <strong>13 Mpx</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_8">Bluetooth:</em>
+                            </td>
+                            <td>
+                              <strong>Bluetooth 4.0</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em>Wi-Fi:</em>
+                            </td>
+                            <td>
+                              <strong>IEEE 802.11 b/g/n</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em>GPS:</em>
+                            </td>
+                            <td>
+                              <strong>A-GPS, GPS</strong>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+
+                      <div id="tab-2">
+                        <table class="table_parametres">
+                          <col class="col_1">
+                          <col class="col_2">
+                          <tr>
+                            <td>
+                              <em class="par_1">Диагональ экрана:</em>
+                            </td>
+                            <td>
+                              <strong>5''</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_2">Операционная система:</em>
+                            </td>
+                            <td>
+                              <strong>Android 4.4 KitKat</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_3">Внутренняя память:</em>
+                            </td>
+                            <td>
+                              <strong>16 Гб</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_4">Поддержка карты памяти:</em>
+                            </td>
+                            <td>
+                              <strong>microSD до 64 Гб</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_5">Количество SIM-карт:</em>
+                            </td>
+                            <td>
+                              <strong>2 SIM</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_6">Формат SIM-карты:</em>
+                            </td>
+                            <td>
+                              <strong>Nano-SIM</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_7">Камера:</em>
+                            </td>
+                            <td>
+                              <strong>13 Mpx</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_8">Bluetooth:</em>
+                            </td>
+                            <td>
+                              <strong>Bluetooth 4.0</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em>Wi-Fi:</em>
+                            </td>
+                            <td>
+                              <strong>IEEE 802.11 b/g/n</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em>GPS:</em>
+                            </td>
+                            <td>
+                              <strong>A-GPS, GPS</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_1">Диагональ экрана:</em>
+                            </td>
+                            <td>
+                              <strong>5''</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_2">Операционная система:</em>
+                            </td>
+                            <td>
+                              <strong>Android 4.4 KitKat</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_3">Внутренняя память:</em>
+                            </td>
+                            <td>
+                              <strong>16 Гб</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_4">Поддержка карты памяти:</em>
+                            </td>
+                            <td>
+                              <strong>microSD до 64 Гб</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_5">Количество SIM-карт:</em>
+                            </td>
+                            <td>
+                              <strong>2 SIM</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_6">Формат SIM-карты:</em>
+                            </td>
+                            <td>
+                              <strong>Nano-SIM</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_7">Камера:</em>
+                            </td>
+                            <td>
+                              <strong>13 Mpx</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em class="par_8">Bluetooth:</em>
+                            </td>
+                            <td>
+                              <strong>Bluetooth 4.0</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em>Wi-Fi:</em>
+                            </td>
+                            <td>
+                              <strong>IEEE 802.11 b/g/n</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <em>GPS:</em>
+                            </td>
+                            <td>
+                              <strong>A-GPS, GPS</strong>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <!-- END TABS -->
+                  </section>
+                  <!-- END ТЕХНИЧЕСКИЕ Х-КИ -->
+
+                  <!-- ОПИСАНИЕ -->
+                  <section class="section t_parametres_2">
+                    <h2>Описание</h2>
+
+                    <div class="description_content">
+                      <p class="text">
+                        Новинка 2014 года -  Lenovo S8 Golden Warrior,  бюджетный смартфон с просто колосальными характеристиками и стильным дизайном.
+                      </p>
+
+                      <p class="text">
+                        Смартфон Lenovo S8 имеет поддержку 2 сим карт, работает под управлением Android 4.2 с фирменной оболчкой Vibe - ускоренной и максимально удобной в использовании, имеет 5.3 дюймовый IPS экран 1280 х 720 пикселей с плотностю цвета в изображении 320 dpi и 16 миллионов
+                      </p>
+
+                      <p class="text">
+                        Новинка 2014 года -  Lenovo S8 Golden Warrior,  бюджетный смартфон с просто колосальными характеристиками и стильным дизайном.
+                      </p>
+
+                      <p class="text">
+                        Смартфон Lenovo S8 имеет поддержку 2 сим карт, работает под управлением Android 4.2 с фирменной оболчкой Vibe - ускоренной и максимально удобной в использовании, имеет 5.3 дюймовый IPS экран 1280 х 720 пикселей с плотностю цвета в изображении 320 dpi и 16 миллионов
+                      </p>
+                    </div>
+
+                    <a href="#" class="hide_show_description">Читать полностью</a>
+
+                    <!-- VIDEO -->
+                    <div class="video">
+                      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qPMypN6lQU0" allowfullscreen></iframe>
+                    -->
+                  </div>
+                  <!-- END VIDEO -->
+                </section>
+                <!-- END ОПИСАНИЕ -->
+              </div>
+
+              <!-- ОТЗЫВЫ -->
+              <section class="section section_comments">
+                <h2>Отзывы</h2>
+
+                <a href="#" class="make_comment">Написать отзыв</a>
+
+                <!-- БЛОК ОТЗЫВА -->
+                <div class="user_comment" itemscope itemtype="http://schema.org/Review">
+                  <h4 itemprop="name">
+                    <a href="http://patifon.com.ua/" itemprop="url" style="display: none;">
+                      Интернет магазин Patifon.com.ua - оригинальные смартфоны Lenovo в Украине по доступной цене, гарантия 12 месяцев в Украине!
+                    </a>
+                  </h4>
+
+                  <span class="user_comment__name" itemprop="author">Иван</span>
+                  <span class="user_comment__pubdate" itemprop="datePublished" content="2015-01-09">09.01.2015</span>
+
+                  <div class="user_comment__rating clearfix"></div>
+
+                  <p class="text" itemprop="reviewBody">
+                    Очень понравился. Шустрый, параметры отличные. Выглядит дорого. Доставка и связь с фирмой быстрая. Покупала ещё по старой цене, на то время это быaло со скидкой 21%. За такие деньги это был единственный сайт, на котором в комплекте входили наушники.. Все ожидания оправданы.
+                  </p>
+
+                  <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/MobilePhoneStore" style="display: none;"></span>
+                </div>
+                <!-- END БЛОК ОТЗЫВА -->
+
+                <!-- БЛОК ОТЗЫВА -->
+                <div class="user_comment" itemscope itemtype="http://schema.org/Review">
+                  <h4 itemprop="name">
+                    <a href="http://patifon.com.ua/" itemprop="url" style="display: none;">
+                      Интернет магазин Patifon.com.ua - оригинальные смартфоны Lenovo в Украине по доступной цене, гарантия 12 месяцев в Украине!
+                    </a>
+                  </h4>
+
+                  <span class="user_comment__name" itemprop="author">Ирина</span>
+                  <span class="user_comment__pubdate" itemprop="datePublished" content="2015-01-09">09.01.2015</span>
+
+                  <div class="user_comment__rating clearfix"></div>
+
+                  <p class="text" itemprop="reviewBody">классный телефон..давно такой себе хотела...</p>
+
+                  <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/MobilePhoneStore" style="display: none;"></span>
+                </div>
+                <!-- END БЛОК ОТЗЫВА -->
+
+                <!-- БЛОК ОТЗЫВА -->
+                <div class="user_comment" itemscope itemtype="http://schema.org/Review">
+                  <h4 itemprop="name">
+                    <a href="http://patifon.com.ua/" itemprop="url" style="display: none;">
+                      Интернет магазин Patifon.com.ua - оригинальные смартфоны Lenovo в Украине по доступной цене, гарантия 12 месяцев в Украине!
+                    </a>
+                  </h4>
+
+                  <span class="user_comment__name" itemprop="author">Андрій, Київ</span>
+                  <span class="user_comment__pubdate" itemprop="datePublished" content="2015-01-09">09.01.2015</span>
+
+                  <div class="user_comment__rating clearfix"></div>
+
+                  <p class="text" itemprop="reviewBody">
+                    Смарт клас і реально круче чим на любому фото. Доставка в рукі дуже зручно, приемна дівчина консультант, Дякую.
+                  </p>
+
+                  <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/MobilePhoneStore" style="display: none;"></span>
+                </div>
+                <!-- END БЛОК ОТЗЫВА -->
+
+                <!-- БЛОК ОТЗЫВА -->
+                <div class="user_comment" itemscope itemtype="http://schema.org/Review">
+                  <h4 itemprop="name">
+                    <a href="http://patifon.com.ua/" itemprop="url" style="display: none;">
+                      Интернет магазин Patifon.com.ua - оригинальные смартфоны Lenovo в Украине по доступной цене, гарантия 12 месяцев в Украине!
+                    </a>
+                  </h4>
+
+                  <span class="user_comment__name" itemprop="author">Иван</span>
+                  <span class="user_comment__pubdate" itemprop="datePublished" content="2015-01-09">09.01.2015</span>
+
+                  <div class="user_comment__rating clearfix"></div>
+
+                  <p class="text" itemprop="reviewBody">
+                    Очень понравился. Шустрый, параметры отличные. Выглядит дорого. Доставка и связь с фирмой быстрая. Покупала ещё по старой цене, на то время это быaло со скидкой 21%. За такие деньги это был единственный сайт, на котором в комплекте входили наушники.. Все ожидания оправданы.
+                  </p>
+
+                  <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/MobilePhoneStore" style="display: none;"></span>
+                </div>
+                <!-- END БЛОК ОТЗЫВА -->
+
+                <!-- БЛОК ОТЗЫВА -->
+                <div class="user_comment" itemscope itemtype="http://schema.org/Review">
+                  <h4 itemprop="name">
+                    <a href="http://patifon.com.ua/" itemprop="url" style="display: none;">
+                      Интернет магазин Patifon.com.ua - оригинальные смартфоны Lenovo в Украине по доступной цене, гарантия 12 месяцев в Украине!
+                    </a>
+                  </h4>
+
+                  <span class="user_comment__name" itemprop="author">Иван</span>
+                  <span class="user_comment__pubdate" itemprop="datePublished" content="2015-01-15">09.01.2015</span>
+
+                  <div class="user_comment__rating clearfix"></div>
+
+                  <p class="text" itemprop="reviewBody">
+                    Очень понравился. Шустрый, параметры отличные. Выглядит дорого. Доставка и связь с фирмой быстрая. Покупала ещё по старой цене, на то время это быaло со скидкой 21%. За такие деньги это был единственный сайт, на котором в комплекте входили наушники.. Все ожидания оправданы.
+                  </p>
+
+                  <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/MobilePhoneStore" style="display: none;"></span>
+                </div>
+                <!-- END БЛОК ОТЗЫВА -->
+
+                <a href="#" class="all_user_comments">
+                  <span>Все отзывы</span>
+                </a>
+              </section>
+              <!-- ОТЗЫВЫ -->
+            </div>
+
+            <!-- ФОТО -->
+            <section class="section section_photo">
+              <h2>Фото</h2>
+
+              <div class="wrapper_photo clearfix">
+                <a href="#" class="photo">
+                  <img src="images/photo_1.png" alt=""></a>
+
+                <a href="#" class="photo">
+                  <img src="images/photo_2.png" alt=""></a>
+
+                <a href="#" class="photo">
+                  <img src="images/photo_3.png" alt=""></a>
+
+                <a href="#" class="photo">
+                  <img src="images/photo_4.png" alt=""></a>
+
+                <a href="#" class="photo">
+                  <img src="images/photo_5.png" alt=""></a>
+              </div>
+            </section>
+            <!-- END ФОТО -->
+          </div>
+
+          <div id="tab-detail_2">
+            <div class="tabs_content">
+
+              <table class="tabs_content--table_data">
+                <caption>Общие характеристики</caption>
+                <col class="tabs_content--col_1">
+                <col class="tabs_content--col_2">
+
+                <tr>
+                  <td>Операционная система</td>
+                  <td>Android 4.0</td>
+                </tr>
+                <tr>
+                  <td>SIM-карты</td>
+                  <td>2 / Micro-SIM + Nano-SIM</td>
+                </tr>
+                <tr>
+                  <td>Связь</td>
+                  <td>GSM 850/900</td>
+                </tr>
+                <tr>
+                  <td>Цвет</td>
+                  <td>Черный/Black</td>
+                </tr>
+                <tr>
+                  <td>Размеры(ШхВхТ)</td>
+                  <td>100х100х200 мм</td>
+                </tr>
+                <tr>
+                  <td>Вес</td>
+                  <td>120 г</td>
+                </tr>
+              </table>
+
+              <table class="tabs_content--table_data">
+                <caption>Общие характеристики</caption>
+                <col class="tabs_content--col_1">
+                <col class="tabs_content--col_2">
+
+                <tr>
+                  <td>Операционная система</td>
+                  <td>Android 4.0</td>
+                </tr>
+                <tr>
+                  <td>SIM-карты</td>
+                  <td>2 / Micro-SIM + Nano-SIM</td>
+                </tr>
+                <tr>
+                  <td>Связь</td>
+                  <td>GSM 850/900</td>
+                </tr>
+                <tr>
+                  <td>Цвет</td>
+                  <td>Черный/Black</td>
+                </tr>
+                <tr>
+                  <td>Размеры(ШхВхТ)</td>
+                  <td>100х100х200 мм</td>
+                </tr>
+                <tr>
+                  <td>Вес</td>
+                  <td>120 г</td>
+                </tr>
+              </table>
+            </div>
+
+            <aside class="tab_info_product" itemscope itemtype="http://schema.org/Product">
+              <i class="prezent"></i>
+
+              <span itemprop="name" style="display:none;">Iphone 6 plus 16 GB</span>
+
+              <img src="images/photo_1.png" alt="" itemprop="image">
+
+              <span itemprop="description" style="display:none;">
+                iPhone 6 не просто больше. Он лучше во всех отношениях. Больше, но при этом значительно тоньше. Мощнее, но при этом исключительно экономичный. Его гладкая металлическая поверхность плавно переходит в стекло нового HD-дисплея Retina, образуя цельный, законченный дизайн. Его аппаратная часть идеально работает с программным обеспечением. Это новое поколение iPhone, улучшенное во всём
+              </span>
+
+              <div class="style_info">
+                <div class="wrapper_product_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                  <div class="product_price--new">
+                    <strong itemprop="price">15 799</strong>
+                    <span>грн.</span>
+                    <span itemprop="priceCurrency">UAH</span>
+                  </div>
+
+                  <div class="product_price--old">
+                    <p class="product_price--old_p_1">
+                      <span>17 799</span>
+                      &nbsp;грн.
+                    </p>
+                    <p class="product_price--old_p_2">
+                      Экономия -
+                      <span>2000</span>
+                      &nbsp;грн.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="add_to_basket">
+                <span>Добавить в корзину</span>
+              </button>
+
+              <!-- КУПИТЬ В ОДИН КЛИК -->
+              <form action="/" method="post" class="form_buy_one_click">
+                <div>
+                  <input class="buy_one_click__input" placeholder="Номер телефона"></div>
+                <div>
+                  <button type="submit" class="buy_one_click__button">Купить в 1 клик</button>
+                </div>
+              </form>
+              <!-- END КУПИТЬ В ОДИН КЛИК -->
+
+              <div class="style_info">
+                <div class="rating_comments_product">
+                  <div>
+                    <p class="wrapper_rating">
+                      <span class="rating--product"></span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a href="#" class="product--comm">
+                        <span class="product--comm_quant">220000</span>
+                        &nbsp;отзывов
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="style_info">
+                <div class="product_detail_add_cont clearfix">
+                  <p>
+                    <a href="#" class="product--detail_like">
+                      <span class="product--detail_like__quant">220000</span>
+                    </a>
+                  </p>
+
+                  <p>
+                    <input type="checkbox" id="product--det_check_2" class="product--det_check">
+                    <label for="product--det_check_2">Добавить к сравнению</label>
+                  </p>
+                </div>
+              </div>
+            </aside>
+
+            <span class="clearfix"></span>
+          </div>
+
+          <div id="tab-detail_3">
+            <div class="tabs_content">
+              <a href="#" class="make_comment">Написать отзыв</a>
+              <!-- БЛОК ОТЗЫВА -->
+              <div class="user_comment" itemscope itemtype="http://schema.org/Review">
+                <h4 itemprop="name">
+                  <a href="http://patifon.com.ua/" itemprop="url" style="display: none;">
+                    Интернет магазин Patifon.com.ua - оригинальные смартфоны Lenovo в Украине по доступной цене, гарантия 12 месяцев в Украине!
+                  </a>
+                </h4>
+
+                <span class="user_comment__name" itemprop="author">Иван</span>
+                <span class="user_comment__pubdate" itemprop="datePublished" content="2015-01-09">09.01.2015</span>
+
+                <div class="user_comment__rating clearfix"></div>
+
+                <p class="text" itemprop="reviewBody">
+                  Очень понравился. Шустрый, параметры отличные. Выглядит дорого. Доставка и связь с фирмой быстрая. Покупала ещё по старой цене, на то время это быaло со скидкой 21%. За такие деньги это был единственный сайт, на котором в комплекте входили наушники.. Все ожидания оправданы.
+                </p>
+
+                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/MobilePhoneStore" style="display: none;"></span>
+              </div>
+              <!-- END БЛОК ОТЗЫВА -->
+
+              <!-- БЛОК ОТЗЫВА -->
+              <div class="user_comment" itemscope itemtype="http://schema.org/Review">
+                <h4 itemprop="name">
+                  <a href="http://patifon.com.ua/" itemprop="url" style="display: none;">
+                    Интернет магазин Patifon.com.ua - оригинальные смартфоны Lenovo в Украине по доступной цене, гарантия 12 месяцев в Украине!
+                  </a>
+                </h4>
+
+                <span class="user_comment__name" itemprop="author">Иван</span>
+                <span class="user_comment__pubdate" itemprop="datePublished" content="2015-01-09">09.01.2015</span>
+
+                <div class="user_comment__rating clearfix"></div>
+
+                <p class="text" itemprop="reviewBody">
+                  Очень понравился. Шустрый, параметры отличные. Выглядит дорого. Доставка и связь с фирмой быстрая. Покупала ещё по старой цене, на то время это быaло со скидкой 21%. За такие деньги это был единственный сайт, на котором в комплекте входили наушники.. Все ожидания оправданы.
+                </p>
+
+                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/MobilePhoneStore" style="display: none;"></span>
+              </div>
+              <!-- END БЛОК ОТЗЫВА -->
+
+              <!-- БЛОК ОТЗЫВА -->
+              <div class="user_comment" itemscope itemtype="http://schema.org/Review">
+                <h4 itemprop="name">
+                  <a href="http://patifon.com.ua/" itemprop="url" style="display: none;">
+                    Интернет магазин Patifon.com.ua - оригинальные смартфоны Lenovo в Украине по доступной цене, гарантия 12 месяцев в Украине!
+                  </a>
+                </h4>
+
+                <span class="user_comment__name" itemprop="author">Иван</span>
+                <span class="user_comment__pubdate" itemprop="datePublished" content="2015-01-09">09.01.2015</span>
+
+                <div class="user_comment__rating clearfix"></div>
+
+                <p class="text" itemprop="reviewBody">
+                  Очень понравился. Шустрый, параметры отличные. Выглядит дорого. Доставка и связь с фирмой быстрая. Покупала ещё по старой цене, на то время это быaло со скидкой 21%. За такие деньги это был единственный сайт, на котором в комплекте входили наушники.. Все ожидания оправданы.
+                </p>
+
+                <span itemprop="itemReviewed" itemscope itemtype="http://schema.org/MobilePhoneStore" style="display: none;"></span>
+              </div>
+              <!-- END БЛОК ОТЗЫВА -->
+            </div>
+
+            <aside class="tab_info_product" itemscope itemtype="http://schema.org/Product">
+              <i class="prezent"></i>
+
+              <span itemprop="name" style="display:none;">Iphone 6 plus 16 GB</span>
+
+              <img src="images/photo_1.png" alt="" itemprop="image">
+
+              <span itemprop="description" style="display:none;">
+                iPhone 6 не просто больше. Он лучше во всех отношениях. Больше, но при этом значительно тоньше. Мощнее, но при этом исключительно экономичный. Его гладкая металлическая поверхность плавно переходит в стекло нового HD-дисплея Retina, образуя цельный, законченный дизайн. Его аппаратная часть идеально работает с программным обеспечением. Это новое поколение iPhone, улучшенное во всём
+              </span>
+
+              <div class="style_info">
+                <div class="wrapper_product_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                  <div class="product_price--new">
+                    <strong itemprop="price">15 799</strong>
+                    <span>грн.</span>
+                    <span itemprop="priceCurrency">UAH</span>
+                  </div>
+
+                  <div class="product_price--old">
+                    <p class="product_price--old_p_1">
+                      <span>17 799</span>
+                      &nbsp;грн.
+                    </p>
+                    <p class="product_price--old_p_2">
+                      Экономия -
+                      <span>2000</span>
+                      &nbsp;грн.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="add_to_basket">
+                <span>Добавить в корзину</span>
+              </button>
+
+              <!-- КУПИТЬ В ОДИН КЛИК -->
+              <form action="/" method="post" class="form_buy_one_click">
+                <div>
+                  <input class="buy_one_click__input" placeholder="Номер телефона"></div>
+                <div>
+                  <button type="submit" class="buy_one_click__button">Купить в 1 клик</button>
+                </div>
+              </form>
+              <!-- END КУПИТЬ В ОДИН КЛИК -->
+
+              <div class="style_info">
+                <div class="rating_comments_product">
+                  <div>
+                    <p class="wrapper_rating">
+                      <span class="rating--product"></span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a href="#" class="product--comm">
+                        <span class="product--comm_quant">220000</span>
+                        &nbsp;отзывов
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="style_info">
+                <div class="product_detail_add_cont clearfix">
+                  <p>
+                    <a href="#" class="product--detail_like">
+                      <span class="product--detail_like__quant">220000</span>
+                    </a>
+                  </p>
+
+                  <p>
+                    <input type="checkbox" id="product--det_check_3" class="product--det_check">
+                    <label for="product--det_check_3">Добавить к сравнению</label>
+                  </p>
+                </div>
+              </div>
+            </aside>
+
+            <span class="clearfix"></span>
+          </div>
+
+          <div id="tab-detail_4">
+            <div class="tabs_content">
+              <div class="wrapper_photo clearfix">
+                <a href="#" class="photo">
+                  <img src="images/photo_1.png" alt=""></a>
+
+                <a href="#" class="photo">
+                  <img src="images/photo_2.png" alt=""></a>
+
+                <a href="#" class="photo">
+                  <img src="images/photo_3.png" alt=""></a>
+
+                <a href="#" class="photo">
+                  <img src="images/photo_4.png" alt=""></a>
+
+                <a href="#" class="photo">
+                  <img src="images/photo_5.png" alt=""></a>
+              </div>
+            </div>
+
+            <aside class="tab_info_product" itemscope itemtype="http://schema.org/Product">
+              <i class="prezent"></i>
+
+              <span itemprop="name" style="display:none;">Iphone 6 plus 16 GB</span>
+
+              <img src="images/photo_1.png" alt="" itemprop="image">
+
+              <span itemprop="description" style="display:none;">
+                iPhone 6 не просто больше. Он лучше во всех отношениях. Больше, но при этом значительно тоньше. Мощнее, но при этом исключительно экономичный. Его гладкая металлическая поверхность плавно переходит в стекло нового HD-дисплея Retina, образуя цельный, законченный дизайн. Его аппаратная часть идеально работает с программным обеспечением. Это новое поколение iPhone, улучшенное во всём
+              </span>
+
+              <div class="style_info">
+                <div class="wrapper_product_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                  <div class="product_price--new">
+                    <strong itemprop="price">15 799</strong>
+                    <span>грн.</span>
+                    <span itemprop="priceCurrency">UAH</span>
+                  </div>
+
+                  <div class="product_price--old">
+                    <p class="product_price--old_p_1">
+                      <span>17 799</span>
+                      &nbsp;грн.
+                    </p>
+                    <p class="product_price--old_p_2">
+                      Экономия -
+                      <span>2000</span>
+                      &nbsp;грн.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="add_to_basket">
+                <span>Добавить в корзину</span>
+              </button>
+
+              <!-- КУПИТЬ В ОДИН КЛИК -->
+              <form action="/" method="post" class="form_buy_one_click">
+                <div>
+                  <input class="buy_one_click__input" placeholder="Номер телефона"></div>
+                <div>
+                  <button type="submit" class="buy_one_click__button">Купить в 1 клик</button>
+                </div>
+              </form>
+              <!-- END КУПИТЬ В ОДИН КЛИК -->
+
+              <div class="style_info">
+                <div class="rating_comments_product">
+                  <div>
+                    <p class="wrapper_rating">
+                      <span class="rating--product"></span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a href="#" class="product--comm">
+                        <span class="product--comm_quant">220000</span>
+                        &nbsp;отзывов
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="style_info">
+                <div class="product_detail_add_cont clearfix">
+                  <p>
+                    <a href="#" class="product--detail_like">
+                      <span class="product--detail_like__quant">220000</span>
+                    </a>
+                  </p>
+
+                  <p>
+                    <input type="checkbox" id="product--det_check_4" class="product--det_check">
+                    <label for="product--det_check_4">Добавить к сравнению</label>
+                  </p>
+                </div>
+              </div>
+            </aside>
+
+            <span class="clearfix"></span>
+          </div>
+
+          <div id="tab-detail_5">
+            <div class="tabs_content">
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qPMypN6lQU0" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <aside class="tab_info_product" itemscope itemtype="http://schema.org/Product">
+              <i class="prezent"></i>
+
+              <span itemprop="name" style="display:none;">Iphone 6 plus 16 GB</span>
+
+              <img src="images/photo_1.png" alt="" itemprop="image">
+
+              <span itemprop="description" style="display:none;">
+                iPhone 6 не просто больше. Он лучше во всех отношениях. Больше, но при этом значительно тоньше. Мощнее, но при этом исключительно экономичный. Его гладкая металлическая поверхность плавно переходит в стекло нового HD-дисплея Retina, образуя цельный, законченный дизайн. Его аппаратная часть идеально работает с программным обеспечением. Это новое поколение iPhone, улучшенное во всём
+              </span>
+
+              <div class="style_info">
+                <div class="wrapper_product_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                  <div class="product_price--new">
+                    <strong itemprop="price">15 799</strong>
+                    <span>грн.</span>
+                    <span itemprop="priceCurrency">UAH</span>
+                  </div>
+
+                  <div class="product_price--old">
+                    <p class="product_price--old_p_1">
+                      <span>17 799</span>
+                      &nbsp;грн.
+                    </p>
+                    <p class="product_price--old_p_2">
+                      Экономия -
+                      <span>2000</span>
+                      &nbsp;грн.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="add_to_basket">
+                <span>Добавить в корзину</span>
+              </button>
+
+              <!-- КУПИТЬ В ОДИН КЛИК -->
+              <form action="/" method="post" class="form_buy_one_click">
+                <div>
+                  <input class="buy_one_click__input" placeholder="Номер телефона"></div>
+                <div>
+                  <button type="submit" class="buy_one_click__button">Купить в 1 клик</button>
+                </div>
+              </form>
+              <!-- END КУПИТЬ В ОДИН КЛИК -->
+
+              <div class="style_info">
+                <div class="rating_comments_product">
+                  <div>
+                    <p class="wrapper_rating">
+                      <span class="rating--product"></span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a href="#" class="product--comm">
+                        <span class="product--comm_quant">220000</span>
+                        &nbsp;отзывов
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="style_info">
+                <div class="product_detail_add_cont clearfix">
+                  <p>
+                    <a href="#" class="product--detail_like">
+                      <span class="product--detail_like__quant">220000</span>
+                    </a>
+                  </p>
+
+                  <p>
+                    <input type="checkbox" id="product--det_check_5" class="product--det_check">
+                    <label for="product--det_check_5">Добавить к сравнению</label>
+                  </p>
+                </div>
+              </div>
+            </aside>
+
+            <span class="clearfix"></span>
+          </div>
+
+          <div id="tab-detail_6">
+            <div class="tabs_content">
+              <div class="wrapper_similar_products clearfix">
+                <div class="product product_stock">
+                  <a href="#" class="product__link_img">
+                    <img src="images/product_1.png" alt="" class="product--img">
+                    <span class="label_small"></span>
+                  </a>
+
+                  <div class="product_add_content clearfix">
+                    <p>
+                      <a href="#" class="product--see_comments">
+                        <span class="product--see_quantity">22000</span>
+                      </a>
+                    </p>
+
+                    <p class="wrapper_rating">
+                      <span class="rating"></span>
+                    </p>
+                  </div>
+
+                  <div class="product__title">
+                    <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                  </div>
+
+                  <div class="product_add_content product_add_content_middle clearfix">
+                    <p>
+                      <button class="product--buy_button">Купить</button>
+                    </p>
+
+                    <p class="wrapper_price_button">
+                      <span class="product--price">20450</span>
+                      <span class="product--currency">&nbsp;грн.</span>
+                    </p>
+                  </div>
+
+                  <div class="product_add_content clearfix">
+                    <p>
+                      <a href="#" class="product--like">
+                        <span class="product--like_quantity">22000</span>
+                      </a>
+                    </p>
+
+                    <p>
+                      <input type="checkbox" id="product--check_17" class="product--check">
+                      <label for="product--check_17">Сравнить</label>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="product product_stock">
+                  <a href="#" class="product__link_img">
+                    <img src="images/product_2.png" alt="" class="product--img">
+                    <span class="label_small"></span>
+                  </a>
+
+                  <div class="product_add_content clearfix">
+                    <p>
+                      <a href="#" class="product--see_comments">
+                        <span class="product--see_quantity">22000</span>
+                      </a>
+                    </p>
+
+                    <p class="wrapper_rating">
+                      <span class="rating"></span>
+                    </p>
+                  </div>
+
+                  <div class="product__title">
+                    <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                  </div>
+
+                  <div class="product_add_content product_add_content_middle clearfix">
+                    <p>
+                      <button class="product--buy_button">Купить</button>
+                    </p>
+
+                    <p class="wrapper_price_button">
+                      <span class="product--price">20450</span>
+                      <span class="product--currency">&nbsp;грн.</span>
+                    </p>
+                  </div>
+
+                  <div class="product_add_content clearfix">
+                    <p>
+                      <a href="#" class="product--like">
+                        <span class="product--like_quantity">22000</span>
+                      </a>
+                    </p>
+
+                    <p>
+                      <input type="checkbox" id="product--check_18" class="product--check">
+                      <label for="product--check_18">Сравнить</label>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="product product_sale">
+                  <a href="#" class="product__link_img">
+                    <img src="images/product_3.png" alt="" class="product--img">
+                    <span class="label_small"></span>
+                  </a>
+
+                  <div class="product_add_content clearfix">
+                    <p>
+                      <a href="#" class="product--see_comments">
+                        <span class="product--see_quantity">22000</span>
+                      </a>
+                    </p>
+
+                    <p class="wrapper_rating">
+                      <span class="rating"></span>
+                    </p>
+                  </div>
+
+                  <div class="product__title">
+                    <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                  </div>
+
+                  <div class="product_add_content product_add_content_middle clearfix">
+                    <p>
+                      <button class="product--buy_button" disabled>Купить</button>
+                    </p>
+
+                    <p class="wrapper_price_button">
+                      <span class="product--price">20450</span>
+                      <span class="product--currency">&nbsp;грн.</span>
+                    </p>
+                  </div>
+
+                  <div class="product_add_content clearfix">
+                    <p>
+                      <a href="#" class="product--like">
+                        <span class="product--like_quantity">22000</span>
+                      </a>
+                    </p>
+
+                    <p>
+                      <input type="checkbox" id="product--check_19" class="product--check">
+                      <label for="product--check_19">Сравнить</label>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="product product_stock">
+                  <a href="#" class="product__link_img">
+                    <img src="images/product_2.png" alt="" class="product--img">
+                    <span class="label_small"></span>
+                  </a>
+
+                  <div class="product_add_content clearfix">
+                    <p>
+                      <a href="#" class="product--see_comments">
+                        <span class="product--see_quantity">22000</span>
+                      </a>
+                    </p>
+
+                    <p class="wrapper_rating">
+                      <span class="rating"></span>
+                    </p>
+                  </div>
+
+                  <div class="product__title">
+                    <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+                  </div>
+
+                  <div class="product_add_content product_add_content_middle clearfix">
+                    <p>
+                      <button class="product--buy_button">Купить</button>
+                    </p>
+
+                    <p class="wrapper_price_button">
+                      <span class="product--price">20450</span>
+                      <span class="product--currency">&nbsp;грн.</span>
+                    </p>
+                  </div>
+
+                  <div class="product_add_content clearfix">
+                    <p>
+                      <a href="#" class="product--like">
+                        <span class="product--like_quantity">22000</span>
+                      </a>
+                    </p>
+
+                    <p>
+                      <input type="checkbox" id="product--check_20" class="product--check">
+                      <label for="product--check_20">Сравнить</label>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <aside class="tab_info_product" itemscope itemtype="http://schema.org/Product">
+              <i class="prezent"></i>
+
+              <span itemprop="name" style="display:none;">Iphone 6 plus 16 GB</span>
+
+              <img src="images/photo_1.png" alt="" itemprop="image">
+
+              <span itemprop="description" style="display:none;">
+                iPhone 6 не просто больше. Он лучше во всех отношениях. Больше, но при этом значительно тоньше. Мощнее, но при этом исключительно экономичный. Его гладкая металлическая поверхность плавно переходит в стекло нового HD-дисплея Retina, образуя цельный, законченный дизайн. Его аппаратная часть идеально работает с программным обеспечением. Это новое поколение iPhone, улучшенное во всём
+              </span>
+
+              <div class="style_info">
+                <div class="wrapper_product_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                  <div class="product_price--new">
+                    <strong itemprop="price">15 799</strong>
+                    <span>грн.</span>
+                    <span itemprop="priceCurrency">UAH</span>
+                  </div>
+
+                  <div class="product_price--old">
+                    <p class="product_price--old_p_1">
+                      <span>17 799</span>
+                      &nbsp;грн.
+                    </p>
+                    <p class="product_price--old_p_2">
+                      Экономия -
+                      <span>2000</span>
+                      &nbsp;грн.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="add_to_basket">
+                <span>Добавить в корзину</span>
+              </button>
+
+              <!-- КУПИТЬ В ОДИН КЛИК -->
+              <form action="/" method="post" class="form_buy_one_click">
+                <div>
+                  <input class="buy_one_click__input" placeholder="Номер телефона"></div>
+                <div>
+                  <button type="submit" class="buy_one_click__button">Купить в 1 клик</button>
+                </div>
+              </form>
+              <!-- END КУПИТЬ В ОДИН КЛИК -->
+
+              <div class="style_info">
+                <div class="rating_comments_product">
+                  <div>
+                    <p class="wrapper_rating">
+                      <span class="rating--product"></span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a href="#" class="product--comm">
+                        <span class="product--comm_quant">220000</span>
+                        &nbsp;отзывов
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="style_info">
+                <div class="product_detail_add_cont clearfix">
+                  <p>
+                    <a href="#" class="product--detail_like">
+                      <span class="product--detail_like__quant">220000</span>
+                    </a>
+                  </p>
+
+                  <p>
+                    <input type="checkbox" id="product--det_check_6" class="product--det_check">
+                    <label for="product--det_check_6">Добавить к сравнению</label>
+                  </p>
+                </div>
+              </div>
+            </aside>
+
+            <span class="clearfix"></span>
+          </div>
+
+          <div id="tab-detail_7">
+            <div class="tabs_content">
+              <div class="style_info_tabs">
+                <div>
+                  <strong class="tabs_content--v_service">Базовый пакет
+                    <a href="#" class="what_is_it"></a></strong> 
+                </div>
+                <div>
+                  <p>
+                    <span class="tabs_content--add_price">+200&nbsp;грн</span>
+                  </p>
+
+                  <button class="tabs_content--button">Купить</button>
+                </div>
+              </div>
+
+              <div class="style_info_tabs">
+                <div>
+                  <strong class="tabs_content--v_service">
+                    Стандартный пакет
+                    <a href="#" class="what_is_it"></a>
+                  </strong>
+                </div>
+                <div>
+                  <p>
+                    <span class="tabs_content--add_price">+200&nbsp;грн</span>
+                  </p>
+
+                  <button class="tabs_content--button">Купить</button>
+                </div>
+              </div>
+
+              <div class="style_info_tabs">
+                <div>
+                  <strong class="tabs_content--v_service">
+                    Максимальный пакет
+                    <a href="#" class="what_is_it"></a>
+                  </strong>
+
+                </div>
+                <div>
+                  <p>
+                    <span class="tabs_content--add_price">+200&nbsp;грн</span>
+                  </p>
+
+                  <button class="tabs_content--button">Купить</button>
+                </div>
+              </div>
+
+              <div class="style_info_tabs">
+                <div class="tabs_content__add_v">
+
+                  <div class="tabs_content--wrapper_select">
+                    <label for="tabs_content--select_1">Дополнительно</label>
+
+                    <select class="tabs_content--select" name="tabs_content--select" id="tabs_content--select_1">
+                      <option value="1">Поклеить пленку</option>
+                      <option value="2">Установка ПО</option>
+                      <option value="3">Сервис</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <p>
+                    <span class="tabs_content--add_price">+200&nbsp;грн</span>
+                  </p>
+
+                  <button class="tabs_content--button">Купить</button>
+                </div>
+              </div>
+            </div>
+
+            <aside class="tab_info_product" itemscope itemtype="http://schema.org/Product">
+              <i class="prezent"></i>
+
+              <span itemprop="name" style="display:none;">Iphone 6 plus 16 GB</span>
+
+              <img src="images/photo_1.png" alt="" itemprop="image">
+
+              <span itemprop="description" style="display:none;">
+                iPhone 6 не просто больше. Он лучше во всех отношениях. Больше, но при этом значительно тоньше. Мощнее, но при этом исключительно экономичный. Его гладкая металлическая поверхность плавно переходит в стекло нового HD-дисплея Retina, образуя цельный, законченный дизайн. Его аппаратная часть идеально работает с программным обеспечением. Это новое поколение iPhone, улучшенное во всём
+              </span>
+
+              <div class="style_info">
+                <div class="wrapper_product_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+                  <div class="product_price--new">
+                    <strong itemprop="price">15 799</strong>
+                    <span>грн.</span>
+                    <span itemprop="priceCurrency">UAH</span>
+                  </div>
+
+                  <div class="product_price--old">
+                    <p class="product_price--old_p_1">
+                      <span>17 799</span>
+                      &nbsp;грн.
+                    </p>
+                    <p class="product_price--old_p_2">
+                      Экономия -
+                      <span>2000</span>
+                      &nbsp;грн.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="add_to_basket">
+                <span>Добавить в корзину</span>
+              </button>
+
+              <!-- КУПИТЬ В ОДИН КЛИК -->
+              <form action="/" method="post" class="form_buy_one_click">
+                <div>
+                  <input class="buy_one_click__input" placeholder="Номер телефона"></div>
+                <div>
+                  <button type="submit" class="buy_one_click__button">Купить в 1 клик</button>
+                </div>
+              </form>
+              <!-- END КУПИТЬ В ОДИН КЛИК -->
+
+              <div class="style_info">
+                <div class="rating_comments_product">
+                  <div>
+                    <p class="wrapper_rating">
+                      <span class="rating--product"></span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a href="#" class="product--comm">
+                        <span class="product--comm_quant">20000</span>
+                        &nbsp;отзывов
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="style_info">
+                <div class="product_detail_add_cont clearfix">
+                  <p>
+                    <a href="#" class="product--detail_like">
+                      <span class="product--detail_like__quant">220000</span>
+                    </a>
+                  </p>
+
+                  <p>
+                    <input type="checkbox" id="product--det_check_7" class="product--det_check">
+                    <label for="product--det_check_7">Добавить к сравнению</label>
+                  </p>
+                </div>
+              </div>
+            </aside>
+
+            <span class="clearfix"></span>
+          </div>
+        </div>
+        <!-- END TABS ДЕТАЛЬНО О ТОВАРЕ -->
+      </section>
+      <!-- END ДЕТАЛЬНО О ТОВАРЕ -->
+
+      <!-- ПОХОЖИЕ ТОВАРЫ -->
+      <section class="section section_similar_products section_before_footer">
+        <h2>Похожие товары</h2>
+
+        <div class="wrapper_similar_products clearfix">
+          <div class="product product_stock">
+            <a href="#" class="product__link_img">
+              <img src="images/product_1.png" alt="" class="product--img">
+              <span class="label_small"></span>
+            </a>
+
+            <div class="product_add_content clearfix">
+              <p>
+                <a href="#" class="product--see_comments">
+                  <span class="product--see_quantity">22000</span>
+                </a>
+              </p>
+
+              <p class="wrapper_rating">
+                <span class="rating"></span>
+              </p>
+            </div>
+
+            <div class="product__title">
+              <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+            </div>
+
+            <div class="product_add_content product_add_content_middle clearfix">
+              <p>
+                <button class="product--buy_button">Купить</button>
+              </p>
+
+              <p class="wrapper_price_button">
+                <span class="product--price">20450</span>
+                <span class="product--currency">&nbsp;грн.</span>
+              </p>
+            </div>
+
+            <div class="product_add_content clearfix">
+              <p>
+                <a href="#" class="product--like">
+                  <span class="product--like_quantity">22000</span>
+                </a>
+              </p>
+
+              <p>
+                <input type="checkbox" id="product--check_30" class="product--check">
+                <label for="product--check_30" class="similar_products--label">Добавить к сравнению</label>
+              </p>
+            </div>
+          </div>
+
+          <div class="product product_stock">
+            <a href="#" class="product__link_img">
+              <img src="images/product_2.png" alt="" class="product--img">
+              <span class="label_small"></span>
+            </a>
+
+            <div class="product_add_content clearfix">
+              <p>
+                <a href="#" class="product--see_comments">
+                  <span class="product--see_quantity">22000</span>
+                </a>
+              </p>
+
+              <p class="wrapper_rating">
+                <span class="rating"></span>
+              </p>
+            </div>
+
+            <div class="product__title">
+              <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+            </div>
+
+            <div class="product_add_content product_add_content_middle clearfix">
+              <p>
+                <button class="product--buy_button">Купить</button>
+              </p>
+
+              <p class="wrapper_price_button">
+                <span class="product--price">20450</span>
+                <span class="product--currency">&nbsp;грн.</span>
+              </p>
+            </div>
+
+            <div class="product_add_content clearfix">
+              <p>
+                <a href="#" class="product--like">
+                  <span class="product--like_quantity">22000</span>
+                </a>
+              </p>
+
+              <p>
+                <input type="checkbox" id="product--check_31" class="product--check">
+                <label for="product--check_31" class="similar_products--label">Добавить к сравнению</label>
+              </p>
+            </div>
+          </div>
+
+          <div class="product product_sale">
+            <a href="#" class="product__link_img">
+              <img src="images/product_3.png" alt="" class="product--img">
+              <span class="label_small"></span>
+            </a>
+
+            <div class="product_add_content clearfix">
+              <p>
+                <a href="#" class="product--see_comments">
+                  <span class="product--see_quantity">22000</span>
+                </a>
+              </p>
+
+              <p class="wrapper_rating">
+                <span class="rating"></span>
+              </p>
+            </div>
+
+            <div class="product__title">
+              <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+            </div>
+
+            <div class="product_add_content product_add_content_middle clearfix">
+              <p>
+                <button class="product--buy_button" disabled>Купить</button>
+              </p>
+
+              <p class="wrapper_price_button">
+                <span class="product--price">20450</span>
+                <span class="product--currency">&nbsp;грн.</span>
+              </p>
+            </div>
+
+            <div class="product_add_content clearfix">
+              <p>
+                <a href="#" class="product--like">
+                  <span class="product--like_quantity">22000</span>
+                </a>
+              </p>
+
+              <p>
+                <input type="checkbox" id="product--check_32" class="product--check">
+                <label for="product--check_32" class="similar_products--label">Добавить к сравнению</label>
+              </p>
+            </div>
+          </div>
+
+          <div class="product product_stock">
+            <a href="#" class="product__link_img">
+              <img src="images/product_2.png" alt="" class="product--img">
+              <span class="label_small"></span>
+            </a>
+
+            <div class="product_add_content clearfix">
+              <p>
+                <a href="#" class="product--see_comments">
+                  <span class="product--see_quantity">22000</span>
+                </a>
+              </p>
+
+              <p class="wrapper_rating">
+                <span class="rating"></span>
+              </p>
+            </div>
+
+            <div class="product__title">
+              <a href="#">Чехол для Lenovo Vibe X2 Gold CoolPool</a>
+            </div>
+
+            <div class="product_add_content product_add_content_middle clearfix">
+              <p>
+                <button class="product--buy_button">Купить</button>
+              </p>
+
+              <p class="wrapper_price_button">
+                <span class="product--price">20450</span>
+                <span class="product--currency">&nbsp;грн.</span>
+              </p>
+            </div>
+
+            <div class="product_add_content clearfix">
+              <p>
+                <a href="#" class="product--like">
+                  <span class="product--like_quantity">22000</span>
+                </a>
+              </p>
+
+              <p>
+                <input type="checkbox" id="product--check_33" class="product--check">
+                <label for="product--check_33" class="similar_products--label">Добавить к сравнению</label>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END ПОХОЖИЕ ТОВАРЫ -->
+    </div>
+    <!-- END CONTAINER -->
+  </main>
+  <!-- END MAIN -->
+</div>
+<!--////////////////////////////////////////////////////////////////////////////////
+                      FOOTER
+////////////////////////////////////////////////////////////////////////////////////-->
+<footer>
+  <div class="container">
+    <!-- TOP FOOTER -->
+    <div class="footer__top">
+      <!-- FOOTER NAV -->
+      <nav class="footer_nav">
+        <ul>
+          <li>
+            <a href="#">Гарантия и сервис</a>
+          </li>
+          <li>
+            <a href="#">Доставка и оплата</a>
+          </li>
+          <li>
+            <a href="#">Акции</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- END FOOTER NAV -->
+
+      <!-- FOOTER NAV -->
+      <nav class="footer_nav">
+        <ul>
+          <li>
+            <a href="#">Связаться с нами</a>
+          </li>
+          <li>
+            <a href="#">Статьи</a>
+          </li>
+          <li>
+            <a href="#">Карта сайта</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- END FOOTER NAV -->
+
+      <!-- FOOTER CONTACTS -->
+      <div class="footer_contacts" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="name" style="display:none;">Интернет-магазин Patifon</span>
+
+        <p>
+          <a href="tel:+38(095)402-16-80" itemprop="telephone">+38 (095) 402-16-80</a>
+          <a href="tel:+38(093)647-98-88" itemprop="telephone">+38 (093) 647-98-88</a>
+
+          <a href="#" class="footer_make_call">
+            <span>Заказать звонок</span>
+          </a>
+        </p>
+        <p>
+          <a href="tel:+38(096)769-66-20">+38 (096) 769-66-20</a>
+          <a href="tel:+38(093)647-98-99">+38 (093) 647-98-99</a>
+        </p>
+      </div>
+      <!-- END FOOTER CONTACTS -->
+
+      <!-- FOOTER SOCIAL -->
+      <div class="footer_social">
+        <img src="images/social_footer.png" alt=""></div>
+      <!-- END FOOTER SOCIAL -->
+
+    </div>
+    <!-- END TOP FOOTER -->
+
+    <!-- BOTTOM FOOTER -->
+    <div class="footer__bottom">
+      <!-- COPYRIGHT -->
+      <p class="copyright">
+        &copy;&nbsp;2013-2014 Интернет-магазин
+        <a href="http://mysmart.com.ua/">mysmart.com.ua</a>
+      </p>
+      <!-- END COPYRIGHT -->
+
+      <!-- LOGO 32X32 -->
+      <div class="logo32x32">
+        <a href="http://32x32.com.ua/" class="image">
+          <img src="images/32x32.png" alt="Студия дизайна 32x32"></a>
+        Разработан и поддерживается
+        <br>
+        в
+        <a href="http://32x32.com.ua/">компании 32x32</a>
+      </div>
+      <!-- END LOGO 32X32 -->
+    </div>
+    <!-- END BOTTOM FOOTER -->
+  </div>
+  <!-- END CONTAINER -->
+</footer>
+<!-- END FOOTER -->
+
+
+<div id="ownbox" style="display: block;">
+  <div id="box">
+    <div id="ownbox-mask"></div>
+
+    <div class="ownbox-content form form-feedback">
+      <div class="title">Заказать звонок</div>
+      <a class="close" href="#"></a>
+      
+      <div class="field">
+        <div class="name">Ваше имя</div>
+        <input type="text" class="input-text">
+      </div><!-- end .field -->
+
+      <div class="field">
+        <div class="name">Ваш номер телефона</div>
+        <input type="text" class="input-text">
+      </div><!-- end .field -->
+
+      <div class="field">
+        <div class="name">Ваш номер телефона</div>
+        <textarea cols="30" rows="10" class="textarea"></textarea>
+      </div><!-- end .field -->
+
+      <input type="submit" class="input-button" value="Заказать звонок">
+    </div><!-- end .ownbox-content -->
+  </div><!-- end #box -->
+</div><!-- end #ownbox -->
+
+
+<!-- jQuery -->
+<script src="javascript/jquery-1.8.3.min.js"></script>
+
+<!-- Скрипт Slick Slider -->
+<script src="javascript/slick.min.js"></script>
+
+<!-- Скрипт Tabs -->
+<script src="javascript/jquery.tabslet.min.js"></script>
+
+<!-- Скрипт BxSlider -->
+<script src="javascript/jquery.bxslider.min.js"></script>
+
+<!-- Скрипт jCarousel -->
+<script src="javascript/jcarousel.js"></script>
+
+<!-- Скрипт Таймера обратного отсчета -->
+<script src="javascript/own.timer.js"></script>
+
+<!-- Скрипт стилизации select -->
+<script src="javascript/jquery.selectric.min.js"></script>
+
+<!-- Скрипт Маски ввода -->
+<script src="javascript/jquery.maskedinput.min.js"></script>
+
+<!-- Скрипт Rating -->
+<script src="javascript/rating.js"></script>
+
+<!-- Ownbox -->
+<script src="javascript/own.box.js"></script>
+
+<script>
+  $(document).ready(function() {
+    own_box_update();
+  });
+</script>
+<!-- END Ownbox -->
+
+<script>
+    function footer() {
+      if($('footer').length) {
+        var $footerHeight = $('footer').outerHeight();
+
+        $('main').css('padding-bottom', $footerHeight);
+        $('footer').css('margin-top', -$footerHeight);
+      }
+    }
+
+    $(function() {
+      footer();
+
+      $('.header--form input').focus(function(){
+          $(this).closest('.header--form').css({
+            'background': '#fff'
+          });
+
+          $('.header--form button').removeClass('button_1').addClass('button_2'); 
+        }
+      );
+
+      $('.header--form input').blur(function(){
+          $(this).closest('.header--form').css({
+            'background': '#dddddd'
+          });
+
+          $('.header--form button').removeClass('button_2').addClass('button_1');
+        }
+      );
+
+
+      // SLIDESHOW
+      $('.bxmain').bxSlider({
+          mode: 'fade',
+          adaptiveHeight: true,
+          controls: false,
+          pagerCustom: '.bxpager'
+        });
+
+        $('.jcarousel').jcarousel({
+          vertical: true
+        });
+
+       $('.jcarousel-left').on('jcarouselcontrol:active', function() {
+          $(this).removeClass('disabled');
+       }).on('jcarouselcontrol:inactive', function() {
+          $(this).addClass('disabled');
+       }).jcarouselControl({
+          target: '-=1'
+       });
+
+       $('.jcarousel-right').on('jcarouselcontrol:active', function() {
+          $(this).removeClass('disabled');
+       }).on('jcarouselcontrol:inactive', function() {
+          $(this).addClass('disabled');
+       }).jcarouselControl({
+          target: '+=1'
+       });
+
+
+      // TABS TABSLET
+      $('.tabs, .tabs_detail_product').tabslet({});
+
+
+      // МЕНЯЕМ МЕСТАМИ 
+      $(window).resize(function(){
+          if( $(this).outerWidth() < 980 ){
+          $('.container_980').prepend($('.contact_phones_group'));  
+          }   
+      });
+
+      $(window).resize(function(){
+          if( $(this).outerWidth() < 800 ){
+          $('.container_800').append($('.select_block')); 
+          }   
+      });
+
+      $(window).resize(function(){
+          if( $(this).outerWidth() < 700 ){
+          $('.container_980').append($('.call_us'));  
+          }   
+      });
+
+      $(window).resize(function(){
+          if( $(this).outerWidth() < 599 ){
+              $('.header__mobile--top').append($('.header--form'));
+
+              $('.header--form input').focus(function(){
+                $(this).css({
+              'box-shadow': 'inset 0 -4px 2px -2px  #FDCD39'
+            });
+
+            $(this).closest('.header--form').css({
+              'background': '#fff'
+            });
+            }
+          );
+
+          $('.header--form input').blur(function(){
+              $(this).css({
+              'box-shadow': 'none'
+              });
+              $(this).closest('.header--form').css({
+                'background': 'transparent'
+              });
+            }
+          );
+
+
+          // МЕНЮ МОБ. ВЕРСИЯ
+              $('.toggle_mobile_nav').click(
+                function(){
+                  $('body').css({
+                  'overflow-y':'hidden'});  
+
+                  $('.mobile_open_content').fadeIn(5);
+              $('.mobile_open__mask').fadeIn(100);
+                  $('.mobile_open_content__inner').addClass('mobile_o_c_inner_open');
+                }
+              );
+
+
+              $('.mobile_open__mask').click(
+                function(){
+                  $('.mobile_open_content__inner').removeClass('mobile_o_c_inner_open');
+
+                  $('.mobile_open_content').stop(true,true).delay(300).fadeOut(50);
+                  $('body').css({
+                  'overflow-y':''});
+                }
+              );
+
+
+          $('.product_description').before($('.time_end_action'));
+          
+          $('.mobile_open_content__inner').append($('.add_nav'));
+          $('.add_nav').after($('.mobile_op_cont_form'));
+          $('.mobile_op_cont_form').after($('.contact_phones_group, .call_us'));
+          $('.call_us').after($('.main_nav'));
+          $('.main_nav').after($('.mobile_open_content--copyright'));
+          $('.tabs_detail_product').append($('.tabs_list'));
+
+          
+          // SCROLL TO TOP
+          //var a = $('.container_599').outerHeight();
+          var a = $('header__mobile ').outerHeight();
+          var b = $('h1').outerHeight();
+          var c = $('.product_code').outerHeight();
+          //var d = $('.container_599').outerHeight();
+          var totalOuterHeight = a + b + c + 150;
+
+          $('.horizontal a').click(function ()
+          {
+            $('body,html').animate({scrollTop: totalOuterHeight}, 800);
+            //return false;
+          });
+
+          }   
+      });
+
+      $(window).resize();
+
+
+      // TIMER
+      $.zTimer({
+          day: 'sh_day',
+          hour: 'sh_hour',
+          minute: 'sh_min',
+          second: 'sh_sec',
+          weekOn: false,
+          date: new Date(1448834400000)
+           });
+
+        $.zTimer('start');
+
+
+      // SELECT Selectric
+      $('select').selectric({
+        //maxHeight: 180,
+        responsive: true
+      });
+
+
+      // Маска ввода
+      $('.buy_one_click__input').mask('+3(999)999-99-99');
+      
+
+
+          // КАРУСЕЛЬ ПРОДУКЦИИ
+      $('.product_gallery').slick({
+          dots: false,
+        infinite: false,
+        //autoplay: true,
+          speed: 400,
+          adaptiveHeight: true,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+          responsive: [
+          {
+              breakpoint: 901,
+              settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2
+            }
+          },
+
+          {
+              breakpoint: 701,
+              settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
+            }
+          },
+          {
+              breakpoint: 601,
+              settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+              breakpoint: 481,
+              settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          ]
+      });
+
+
+      // РЕЙТИНГ
+      $('.rating, .user_comment__rating').rating({
+        image: 'images/stars.png',
+          loader: 'images/star_loader.png',
+          fx: 'float',
+          minimal: 0,
+            readOnly: true,
+            url: ''
+      });
+
+      $('.rating--product').rating({
+        image: 'images/stars_big.png',
+          loader: 'images/star_loader_big.png',
+          fx: 'float',
+          minimal: 0,
+            readOnly: true,
+            url: ''
+      });
+
+      
+      // СМЕНА ТЕКСТА, РАСКРЫТЫЕ/СВОРАЧИВАНИЕ БЛОКА
+      $('.hide_show_description').toggle(
+        function(){
+          $('.description_content').css({'height':'auto'});
+          $(this).text('Свернуть');
+        },
+        function(){
+          $('.description_content').css({'height':''});
+          $(this).text('Читать полностью');
+        }
+      );
+
+
+      $(window).resize(function() {;
+          footer();
+      });
+
+
+      // ОПРЕДЕЛЕНИЕ ВЫСОТЫ КОНТЕЙНЕРА ВЕРТИК. КАРУСЕЛИ ПОСЛЕ ЗАГРУЗКИ ВСЕГО КОНТЕНТА
+      $(window).load(function() {
+        footer();
+
+        $('.jcarousel').height($('#bxslider').outerHeight() - 40);
+        $('.bxpager-box').fadeIn(100);
+      });
+
+      /*
+      $('.jcarousel').height($('#bxslider').outerHeight() - 40); 40 это 20px *2 см. ниже
+        .jcarousel {
+            margin: 20px 0;
+        }
+      */
+  
+    }); // Конец ready
+  </script></body>
+</html>

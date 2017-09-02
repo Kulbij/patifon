@@ -1,0 +1,18 @@
+AddDefaultCharset utf-8
+Options +SymLinksIfOwnerMatch
+AddType application/x-httpd-php .php
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine on
+
+
+#RewriteRule ^images/(.*)$ /index.php/$1 [QSA]
+
+RewriteCond $1 !^(index\.php|robots\.txt|public)
+RewriteCond %{REQUEST_URI} !\.(cms?css?js?)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+RewriteRule ^images/(.*)$ index.php/images/objectimg?/$1 [L,QSA]
+#RewriteRule ^public/images/objectimg/(.*)$ index.php/public/images/objectimg?/$1 [L,QSA]
